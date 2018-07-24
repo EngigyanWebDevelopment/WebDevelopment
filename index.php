@@ -516,24 +516,24 @@
             <table class="table">
                 <tbody>
                     <tr>
-                        <td style="vertical-align: middle"><img src="images/tab1_img1.png" alt="" class="rounded-circle img-fluid" id="img1"></td>
-                        <td style="vertical-align: middle"><h4>Classroom Training</h4><p id="pip">Plan for your training requirements by viewing the classroom courses available for CAD & CAE, including, SOLIDWORKS, CATIA,  AUTOCAD, ANSYS, HYPERMESH, MatLab, PDMS and more.</p></td>
+                        <td style="vertical-align: middle" id="img1-td"><img src="images/tab1_img1.png" alt="" class="rounded-circle img-fluid" id="img1"></td>
+                        <td style="vertical-align: middle"><h4 id="img1-h">Classroom Training</h4><p id="pip">Plan for your training requirements by viewing the classroom courses available for CAD & CAE, including, SOLIDWORKS, CATIA,  AUTOCAD, ANSYS, HYPERMESH, MatLab, PDMS and more.</p></td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: middle"><img src="images/tab1_img2.png" alt="" class="rounded-circle img-fluid" id="img1"></td>
-                        <td style="vertical-align: middle"><h4>Custom Training</h4><p id="pip">Some users require more specialized training outside our posted courses. We offer custom training for software platforms, design process techniques, project management, certified exam preparation, and much more. We also arrange for Custom CAD & CAE Training at customer facilities to save them travel expenses and to provide a condensed curriculum.</p></td>
+                        <td style="vertical-align: middle" id="img1-td"><img src="images/tab1_img2.png" alt="" class="rounded-circle img-fluid" id="img1"></td>
+                        <td style="vertical-align: middle"><h4 id="img1-h">Custom Training</h4><p id="pip">Some users require more specialized training outside our posted courses. We offer custom training for software platforms, design process techniques, project management, certified exam preparation, and much more. We also arrange for Custom CAD & CAE Training at customer facilities to save them travel expenses and to provide a condensed curriculum.</p></td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: middle"><img src="images/tab1_img3.png" alt="" class="rounded-circle img-fluid" id="img1"></td>
-                        <td style="vertical-align: middle"><h4>Passport Training</h4><p id="pip">For those new to CAD & CAE softwares who are committed to getting up to speed quickly, EngiGyan offers an Exclusive Discounted Training Program called the EngiGyan Passport Training. For a one-time fee, the 7 most popular CAD & CAE software Training classes are available for an individual student to take once each over a 12 month period.</p></td>
+                        <td style="vertical-align: middle" id="img1-td"><img src="images/tab1_img3.png" alt="" class="rounded-circle img-fluid" id="img1"></td>
+                        <td style="vertical-align: middle"><h4 id="img1-h">Passport Training</h4><p id="pip">For those new to CAD & CAE softwares who are committed to getting up to speed quickly, EngiGyan offers an Exclusive Discounted Training Program called the EngiGyan Passport Training. For a one-time fee, the 7 most popular CAD & CAE software Training classes are available for an individual student to take once each over a 12 month period.</p></td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: middle"><img src="images/tab1_img4.png" alt="" class="rounded-circle img-fluid" id="img1"></td>
-                        <td style="vertical-align: middle"><h4>Google Classroom</h4><p id="pip">We provide Google Classroom to registered Students & professional so that they can view the Topicwise Courses, Study material PDF, Homework models you can upload your homework & Submit the Homework Solution.</p></td>
+                        <td style="vertical-align: middle" id="img1-td"><img src="images/tab1_img4.png" alt="" class="rounded-circle img-fluid" id="img1"></td>
+                        <td style="vertical-align: middle"><h4 id="img1-h">Google Classroom</h4><p id="pip">We provide Google Classroom to registered Students & professional so that they can view the Topicwise Courses, Study material PDF, Homework models you can upload your homework & Submit the Homework Solution.</p></td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: middle"><img src="images/tab1_img5.png" alt="" class="rounded-circle img-fluid" id="img1"></td>
-                        <td style="vertical-align: middle"><h4>Virtual Training</h4><p id="pip">Our Virtual Training is instructor led training for CAD & CAE softwares, Certified Exam Preparation delivered LIVE over the Web, can be access on Smart Phone, Tablet & Laptop and is available for select course offerings. Our virtual classes follow the exact same curriculum as our classroom training but with the convenience of remaining in your home or office!</p></td>
+                        <td style="vertical-align: middle" id="img1-td"><img src="images/tab1_img5.png" alt="" class="rounded-circle img-fluid" id="img1"></td>
+                        <td style="vertical-align: middle"><h4 id="img1-h">Virtual Training</h4><p id="pip">Our Virtual Training is instructor led training for CAD & CAE softwares, Certified Exam Preparation delivered LIVE over the Web, can be access on Smart Phone, Tablet & Laptop and is available for select course offerings. Our virtual classes follow the exact same curriculum as our classroom training but with the convenience of remaining in your home or office!</p></td>
                     </tr>
                 </tbody>
             </table>
@@ -575,7 +575,7 @@
             <div class="highlights"><h1 style="text-align: center !important;">What Do You Get Here!!</h1><br></div>
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="card" style="padding-top: 10px !important;">
+                    <div class="card">
                         <img class="card-img-top img-fluid" src="images/cr_img1.png" alt="Card image" id="c-img6">
                         <div class="card-body" id="cbody1">
                             <center><h5 class="card-title">Certified Training</h5></center>
@@ -584,7 +584,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card" style="padding-top: 10px !important;">
+                    <div class="card">
                         <img class="card-img-top img-fluid" src="images/cr_img2.png" alt="Card image"  id="c-img6">
                         <div class="card-body" id="cbody1">
                             <center><h5 class="card-title">Placement Training</h5></center>
@@ -593,7 +593,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card" style="padding-top: 10px !important;">
+                    <div class="card">
                         <img class="card-img-top img-fluid" src="images/cr_img3.png" alt="Card image"  id="c-img6">
                         <div class="card-body" id="cbody1">
                             <center><h5 class="card-title">Industrial Project</h5></center>
@@ -604,7 +604,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="card" style="padding-top: 10px !important;">
+                    <div class="card">
                         <img class="card-img-top img-fluid" src="images/cr_img4.png" alt="Card image" id="c-img6">
                         <div class="card-body" id="cbody1">
                             <center><h5 class="card-title">Live Chat Support</h5></center>
@@ -613,7 +613,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card" style="padding-top: 10px !important;">
+                    <div class="card">
                         <img class="card-img-top img-fluid" src="images/cr_img5.png" alt="Card image" id="c-img6">
                         <div class="card-body" id="cbody1">
                             <center><h5 class="card-title">Forum Support</h5></center>
@@ -622,7 +622,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card" style="padding-top: 10px !important;">
+                    <div class="card">
                         <img class="card-img-top img-fluid" src="images/cr_img6.png" alt="Card image" id="c-img6">
                         <div class="card-body" id="cbody1">
                             <center><h5 class="card-title">Hands On Exercises</h5></center>
@@ -1213,7 +1213,7 @@
         </div>
     </div>
 	
-	<?php include 'ambassador.php' ?>
+	<?php //include 'ambassador.php' ?>
     <div class="container-fluid" id="footer">
         <div class="row" id="foot_row">
             <div class="col-lg-3 col-sm-4 col-6">
@@ -1222,7 +1222,7 @@
                     <li><a href="includes/aboutus.php" id="foo">About Us</a></li>
                     <li><a href="" id="foo">News & Media</a></li>
                     <li><a href="contactus" id="foo">Contact Us</a></li>
-                    <li><a href="engigyaneducation.blogspot.com" id="foo">Blog</a></li>
+                    <li><a href="http://www.engigyaneducation.blogspot.com/" id="foo">Blog</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-sm-4 col-6">
@@ -1261,6 +1261,8 @@
     function mac(){
         if(screen.width<=500){
             document.getElementById("s_img0").src="images/Screenshot23.png";
+            document.getElementById("bnb").classList.remove("container");
+            document.getElementById("bnb").classList.add("container-fluid");
         }
         else{
             document.getElementById("s_img0").src="images/Screenshot2.png";
@@ -1269,7 +1271,7 @@
     $(document).ready(function() {
         var owl = $('.owl-seven');
         owl.owlCarousel({
-        stagePadding: 40,
+        stagePadding: 50,
         margin: 20,
         nav: true,
         loop: false,
@@ -1298,19 +1300,19 @@
     $(document).ready(function() {
         var owl = $('.owl-one');
         owl.owlCarousel({
-        stagePadding: 0,
+        stagePadding: 50,
         margin: 20,
         nav: true,
         loop: true,
         responsive: {
             0: {
-            items: 1.30
+            items: 1
             },
             600: {
             items: 3
             },
             1000: {
-            items: 5.30
+            items: 5
             }
         }
         })
@@ -1318,19 +1320,19 @@
     $(document).ready(function() {
         var owl = $('.owl-two');
         owl.owlCarousel({
-        stagePadding: 0,
+        stagePadding: 50,
         margin: 20,
         nav: true,
         loop: true,
         responsive: {
             0: {
-            items: 1.30
+            items: 1
             },
             600: {
             items: 3
             },
             1000: {
-            items: 5.30
+            items: 5
             }
         }
         })
@@ -1338,19 +1340,19 @@
     $(document).ready(function() {
         var owl = $('.owl-three');
         owl.owlCarousel({
-        stagePadding: 0,
+        stagePadding: 50,
         margin: 20,
         nav: true,
         loop: true,
         responsive: {
             0: {
-            items: 1.30
+            items: 1
             },
             600: {
             items: 3
             },
             1000: {
-            items: 5.30
+            items: 5
             }
         }
         })
@@ -1358,19 +1360,19 @@
     $(document).ready(function() {
         var owl = $('.owl-four');
         owl.owlCarousel({
-        stagePadding: 0,
+        stagePadding: 50,
         margin: 20,
         nav: true,
         loop: true,
         responsive: {
             0: {
-            items: 1.30
+            items: 1
             },
             600: {
             items: 3
             },
             1000: {
-            items: 5.30
+            items: 5
             }
         }
         })
@@ -1378,19 +1380,19 @@
     $(document).ready(function() {
         var owl = $('.owl-five');
         owl.owlCarousel({
-        stagePadding: 0,
+        stagePadding: 50,
         margin: 20,
         nav: true,
         loop: true,
         responsive: {
             0: {
-            items: 1.30
+            items: 1
             },
             600: {
             items: 3
             },
             1000: {
-            items: 5.30
+            items: 5
             }
         }
         })
@@ -1398,19 +1400,19 @@
     $(document).ready(function() {
         var owl = $('.owl-six');
         owl.owlCarousel({
-        stagePadding: 0,
-        margin: 10,
+        stagePadding: 60,
+        margin: -10,
         nav: true,
         loop: true,
         responsive: {
             0: {
-            items: 1.30
+            items: 1
             },
             600: {
-            items: 3
+            items: 2
             },
             1000: {
-            items: 5.30
+            items: 5
             }
         }
         })

@@ -7,56 +7,22 @@
 .error {color: #FF0000;}
 .correct {color: #008000;}
 .pinfo {
-	box-shadow: 5px 8px 16px 3px rgba(2,3,1,0.2);
-    padding: 12px 16px;
     z-index: 1;
 	border: 2px solid #FF;
-    border-radius: 7px;
-	padding: 12px 20px 12px 40px;
-	border = 2px dashed #FF00FF;
 	
 }
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #008000;
-    min-width: 160px;
-    box-shadow: 5px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-input[type=text] {
+#tex_i {
     width: 240px;
-    box-sizing: border-box;
-    border: 2px solid #FF;
-    border-radius: 7px;
-    font-size: 14px;
-    background-color: white;
-    background-image: 'searchbar.png';
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: inherit;
 }
 
-input[type=text]:focus {
-    width: 80%;
-}
 input:valid {
-	border = 2px solid #008000;
+	border = 1px solid #008000;
 }
 input:invalid {
-	border = 2px dashed #FF00FF;
+	border = 1px dashed #FF00FF;
 }
 
 </style>
@@ -82,8 +48,11 @@ $testin = "THIS FUNC IS WORKING";
 $name = $email = $gender = $uname = $mobno = $college = $clg = $sqlnewcollege = $sqlenter = $result = "";
 $nameErr = $emailErr = $genderErr = $unameerr = $phoneerr = $collgename = $collegeErr = $clgnameErr = "  * ";
 ?>
-<h2>Ambassadors Registration Form</h2>
-<h3>Hey !Ambassador Search Your College To get Started and register for our Programme </h3>
+<br><br>
+<div class="container-fluid">
+  <div class="container">
+  <h3>Ambassadors Registration Form</h2>
+<h6>Hey !Ambassador Search Your College To get Started and register for our Programme </h6>
 <p><span class="error"><strong>* required fields </strong></span></p>
 <strong>
 <p id="nameentered"></p>
@@ -93,13 +62,13 @@ $nameErr = $emailErr = $genderErr = $unameerr = $phoneerr = $collgename = $colle
   <strong>Please Upload your image </strong><input type="file" name="fileimg" /><span class="error">*</span><br><br>
   College : <input type="text" id="clgtext" name="myInput" oninput="myFunction()" placeholder="Search Your College : "><span class="error"><?php echo $collegeErr; ?></span>
   <br><br>
-  Name: <input type="text" name="name"><span class="error"><?php echo $nameErr; ?></span>
+  Name: <input type="text" name="name" id="tex_i"><span class="error"><?php echo $nameErr; ?></span>
   <br><br>
-  E-mail: <input type="text" name="email"><span class="error"><?php echo $emailErr; ?></span>
+  E-mail: <input type="text" name="email" id="tex_i"><span class="error"><?php echo $emailErr; ?></span>
   <br><br>
-  Uname: <input type="text" name="uname"><span class="error"><?php echo $unameerr; ?></span> 
+  Uname: <input type="text" name="uname" id="tex_i"><span class="error"><?php echo $unameerr; ?></span> 
   <br><br>
-  Phone: <input type="text" name="phone"><span class="error"><?php echo $phoneerr; ?></span>
+  Phone: <input type="text" name="phone" id="tex_i"><span class="error"><?php echo $phoneerr; ?></span>
   <br><br>
   Gender:
   <input type="radio" name="gender" value="female">Female
@@ -110,6 +79,9 @@ $nameErr = $emailErr = $genderErr = $unameerr = $phoneerr = $collgename = $colle
   </fieldset>
 </form>
 </strong>
+  </div>
+</div>
+<br><br>
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

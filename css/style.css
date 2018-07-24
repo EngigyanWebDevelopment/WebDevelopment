@@ -267,11 +267,7 @@ nav{
     animation-fill-mode: forwards !important;
     animation-timing-function: ease-in-out;
 }
-#c6{
-    min-height: 300px;
-    border: none;
-    box-shadow: 2px 4px 5px -1px #888888;
-}
+
 #c-img3{
     width: 80%;
     height: auto;
@@ -608,6 +604,9 @@ nav{
     border: none;
     background: inherit;
 }
+.owl-stage{
+    padding-left: 0px !important;
+}
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
     font-size: 30px !important;
 }
@@ -784,9 +783,6 @@ nav{
         position: absolute !important;
         top: 65px !important;
     }
-    #c6{
-        max-height: 100px !important;
-    }
     #menu.show {
         display: flex !important;
     }
@@ -799,6 +795,11 @@ nav{
     #sub-menu{
         padding: 20px !important;
         font-size: 20px !important;
+    }
+    #c6{
+        min-height: 300px;
+        border: none;
+        box-shadow: 2px 4px 5px -1px #888888;
     }
     #ccc{
         max-width: 1000px !important;
@@ -822,7 +823,8 @@ nav{
 }
 @media screen and (max-width: 700px){
     #c6{
-        max-height: 100px !important;
+        max-height: 380px !important;
+        min-height: 260px !important;
     }
     #ment_c{
         min-height: 230px;
@@ -855,8 +857,15 @@ nav{
         font-size: 15px !important;
         font-weight: 800 !important;
     }
+    .textbox{
+        width: 80% !important;
+    }
+    #c6{
+        max-height: 380px !important;
+        min-height: 260px !important;
+    }
     #pip{
-        font-size: 13px;
+        font-size: 14px;
     }
     .hhh{
         width: 80%;
@@ -866,6 +875,9 @@ nav{
     }
     .team-details2{
         top: 80%;
+    }
+    .owl-stage{
+        padding-left: 0px !important;
     }
     #teachers{
         padding: 10px !important;
@@ -890,6 +902,13 @@ nav{
     }
     #img1{
         display: none;
+    }
+    #img1-td{
+        display: none !important;
+    }
+    #img1-h{
+        text-align: center !important;
+        align-self: center !important;
     }
     #st_img{
         max-height: 70px;

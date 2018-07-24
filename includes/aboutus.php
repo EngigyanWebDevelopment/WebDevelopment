@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -31,7 +32,7 @@
           <span class="loading" data-name="Loading">Loading</span>
       </div>
     </div>  
-    <nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
       <a class="navbar-brand" href="#"><img class="img-fluid" src="images/engigyan.png" alt="" id="logo"> EngiGyan</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -50,27 +51,30 @@
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="menu">
                       <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Computer Science</a>
                           <ul class="dropdown-menu" id="sub-menu">
-                                <li><a class="dropdown-item" href="cs/cpp.html">C++</a></li>
-                                <li><a class="dropdown-item" href="cs/java.html">JAVA</a></li>
-                                <li><a class="dropdown-item" href="cs/mysql.html">MySQL</a></li>
-                                <li><a class="dropdown-item" href="cs/python.html">Python</a></li>
-                                <li><a class="dropdown-item" href="cs/linux.html">LINUX</a></li>
-                                <li><a class="dropdown-item" href="cs/ai.html">Artificial Intelligence</a></li>
-                                <li><a class="dropdown-item" href="cs/bigdata.html">Big Data</a></li>
+                            <li><a class="dropdown-item" href="cs/cpp.php">C++</a></li>
+                                <li><a class="dropdown-item" href="cs/java.php">JAVA</a></li>
+                                <li><a class="dropdown-item" href="cs/mysql.php">MySQL</a></li>
+                                <li><a class="dropdown-item" href="cs/python.php">Python</a></li>
+                                <li><a class="dropdown-item" href="cs/linux.php">LINUX</a></li>
+                                <li><a class="dropdown-item" href="cs/cloudcomp.php">Cloud Computing</a></li>
+                                <li><a class="dropdown-item" href="cs/robotics.php">Robotics</a></li>
+                                <li><a class="dropdown-item" href="cs/ai.php">Artificial Intelligence</a></li>
+                                <li><a class="dropdown-item" href="cs/bigdata.php">Big Data</a></li>
+                                <li><a class="dropdown-item" href="cs/matlab.php">MATLAB</a></li>
                                 <li><a class="dropdown-item" href="#">Web Developement</a></li>
                                 <li><a class="dropdown-item" href="#">App Developement</a></li>
-                                <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+                                <li><a class="dropdown-item" href="cs/ml.php">Machine Learning</a></li>
                           </ul>
                       </li>
                       <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Mechanical Engineering</a>
-                          <ul class="dropdown-menu" id="sub-menu">
-                              <li><a class="dropdown-item" href="#">SolidWorks</a></li>
-                              <li><a class="dropdown-item" href="#">CATIA</a></li>
-                              <li><a class="dropdown-item" href="#">AutoCAD</a></li>
-                              <li><a class="dropdown-item" href="#">ANSIS</a></li>
-                              <li><a class="dropdown-item" href="#">CDF Analysis</a></li>
-                              <li><a class="dropdown-item" href="#">Hyper Works</a></li>
-                          </ul>
+                            <ul class="dropdown-menu" id="sub-menu">
+                                <li><a class="dropdown-item" href="mechanical/solidworks.php">SolidWorks</a></li>
+                                <li><a class="dropdown-item" href="mechanical/catia.php">CATIA</a></li>
+                                <li><a class="dropdown-item" href="mechanical/autocad.php">AutoCAD</a></li>
+                                <li><a class="dropdown-item" href="mechanical/ansys.php">ANSIS</a></li>
+                                <li><a class="dropdown-item" href="#">CDF Analysis</a></li>
+                                <li><a class="dropdown-item" href="#">Hyper Works</a></li>
+                            </ul>
                       </li>
                       <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Civil Engineering</a>
                           <ul class="dropdown-menu" id="sub-menu">
@@ -84,7 +88,7 @@
                       </li>
                       <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Electrical Engineering</a>
                           <ul class="dropdown-menu" id="sub-menu">
-                              <li><a class="dropdown-item" href="#">MATLAB</a></li>
+                              <li><a class="dropdown-item" href="matlab.php">MATLAB</a></li>
                               <li><a class="dropdown-item" href="#">IOT</a></li>
                               <li><a class="dropdown-item" href="#">AutoCAD</a></li>
                               <li><a class="dropdown-item" href="#">PLC</a></li>
@@ -96,7 +100,7 @@
               </li>  
               <li class="nav-item">
                   <a class="nav-link" href="#">
-                      <div class="link-nav">SERVICES</div>
+                      <div class="link-nav">Auto E PREP</div>
                   </a>
               </li>   
               <li class="nav-item">
@@ -105,30 +109,14 @@
                   </a>
               </li> 
           </ul>
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item" id="spc">
-                  <a class="nav-link" href="#">
-                      <div class="link-nav">Auto E PREP</div>
-                  </a>
-              </li>
-              <li class="nav-item" id="spc1">
-                  <a class="nav-link" href="#">
-                      <div class="link-nav" data-toggle="modal" data-target="#login">Log In</div>
-                  </a>
-              </li>
-              <li class="nav-item" id="spc2">
-                  <a class="nav-link" href="#">
-                      <div class="link-nav" data-toggle="modal" data-target="#register">Register</div>
-                  </a>
-              </li>
-          </ul>
+          <?php include'navbarCheck.php'?>
       </div>  
     </nav>
     
-<div style="margin-top: 50px;margin-bottom:20px" class="w3-container"><center>
+<div style="margin-top: 50px;margin-bottom:20px" class="w3-container">
    <br><br>
    
-  <div class="w3-card-4" style="width:50%;">
+  <div class="w3-card-4">
     <header class="w3-panel w3-round-small w3-blue">
       <h2>About Us</h2>
       <p>Online Training</p>
@@ -174,32 +162,8 @@
     </footer>
   </div>
 
-  </center>
 </div>
-<div class="container-fluid" id="footer">
-    <div class="">
-        <div class="">
-            <h2>EngiGyan</h2>
-            <p>EngiGyan is leading best Live online Software training in India.</p>
-        </div>
-        <div class="">
-            Follow <br>
-            <a href="https://www.facebook.com/engigyan"><i class="fa fa-facebook-square" style="font-size:24px; color: whitesmoke"></i></a> &nbsp;
-            <a href="https://www.linkedin.com/in/engigyan/"> <i class="fa fa-linkedin" style="font-size:24px; color: whitesmoke"></i> </a> &nbsp;
-            <a href="http://"> <i class="fa fa-youtube-play" style="font-size:24px; color: whitesmoke"></i> </a>
-        </div>
-    </div>
-    <div class="">
-        <div class="">
-            <h2>Contact Us</h2>
-            <p>Cabin F-2, SMVDU-TBIC <br> Katra, J&K, (182320)</p>
-        </div>
-        <div class="">
-            mail id: <a href="mailto:info@engigyan.com" id="foo">info@engigyan.com </a> <br>
-            Contact Us: (+919596098157, +919149604575)
-        </div>
-    </div>
-</div>
+<?php include'footer.php'?>
 
 </body>
 <script src="../js/dropdown.js"></script>

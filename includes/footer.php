@@ -3,9 +3,9 @@
             <div class="col-lg-3 col-sm-4 col-6">
                 <p id="foot_titles">EngiGyan</p>
                 <ul style="list-style-type: none;" id="foot_ul">
-                    <li><a href="../aboutus.php" id="foo">About Us</a></li>
+                    <li><a href="aboutus.php" id="foo">About Us</a></li>
                     <li><a href="" id="foo">News & Media</a></li>
-                    <li><a href="" id="foo">Contact Us</a></li>
+                    <li><a href="contactus.html" id="foo">Contact Us</a></li>
                     <li><a href="http://www.engigyaneducation.blogspot.com/" id="foo">Blog</a></li>
                 </ul>
             </div>
