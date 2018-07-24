@@ -20,7 +20,7 @@
 							}else{
 								echo "<div class='row' id='price'><small><strike>Rs. 5500</strike></small> Rs. 4000</div>
 										<div class='row' id='buttons'>
-											<button class='btn btn-primary'>Pay Now</button>
+<div style='padding: 3px;'><a href='https://engigyan.com/PayUMoney/PayUMoney_form.php' class='card-link btn btn-primary'>Pay Now</a></div>
 										</div>
 										<div class='row' id='buttons'>
 											<button class='btn btn-outline-danger'>Start Free Demo</button>
@@ -48,7 +48,7 @@
 							}else{
 								echo "<div class='row' id='price'><small><strike>Rs. 5500</strike></small> Rs. 4000</div>
 										<div class='row' id='buttons'>
-											<button class='btn btn-primary'>Pay Now</button>
+<div style='padding: 3px;'><a href='https://engigyan.com/PayUMoney/PayUMoney_form.php' class='card-link btn btn-primary'>Pay Now</a></div>
 										</div>
 										<div class='row' id='buttons'>
 											<button class='btn btn-outline-danger'>Start Free Demo</button>
