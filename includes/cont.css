@@ -1,0 +1,28 @@
+#collapse1{
+        background-color:#F0F0F0;
+}
+
+.heading{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.conts{
+    font-style:italic;
+}
+.addres{   
+    float:left;
+}
+
+.newcontact{
+    float:right;
+}
+
+@media only screen and (max-width: 600px) {
+    .newcontact{
+        float:left;   
+        margin-top:5%;
+        
+    }
+}
+

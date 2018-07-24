@@ -1,0 +1,1 @@
+<?php echo "It was a succcess"; ?>
