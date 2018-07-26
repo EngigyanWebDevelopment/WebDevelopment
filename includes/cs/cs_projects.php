@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../../css/courses.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -60,17 +61,18 @@
                                 <li><a class="dropdown-item" href="ai.php">Artificial Intelligence</a></li>
                                 <li><a class="dropdown-item" href="bigdata.php">Big Data</a></li>
                                 <li><a class="dropdown-item" href="matlab.php">MATLAB</a></li>
-                                <li><a class="dropdown-item" href="#">Web Developement</a></li>
-                                <li><a class="dropdown-item" href="#">App Developement</a></li>
+                                <li><a class="dropdown-item" href="webdev.php">Web Developement</a></li>
+                                <li><a class="dropdown-item" href="appdev.php">App Developement</a></li>
                                 <li><a class="dropdown-item" href="ml.php">Machine Learning</a></li>
+                                <li><a class="dropdown-item" href="digimarket.php">Digital Marketing</a></li>
                             </ul>
                         </li>
                         <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Mechanical Engineering</a>
                             <ul class="dropdown-menu" id="sub-menu">
-                                <li><a class="dropdown-item" href="../mechanical/solidworks.html">SolidWorks</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/catia.html">CATIA</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/autocad.html">AutoCAD</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/ansys.html">ANSIS</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/solidworks.php">SolidWorks</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/catia.php">CATIA</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/autocad.php">AutoCAD</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/ansys.php">ANSIS</a></li>
                                 <li><a class="dropdown-item" href="#">CDF Analysis</a></li>
                                 <li><a class="dropdown-item" href="#">Hyper Works</a></li>
                             </ul>
@@ -214,7 +216,7 @@
                     <p>EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
                             Make your Image  in industry Eye.
                     </p>
-                    <p> <a href="cs_project1.html"><button class="btn btn-primary">Click To Open</button></a> </p>
+                    <p> <a href="cs_project1.php"><button class="btn btn-primary">Click To Open</button></a> </p>
                 </div>
             </div>
         </div>
@@ -226,7 +228,7 @@
                     <p>EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
                             Make your Image  in industry Eye.
                     </p>
-                    <p> <a href="cs_project1.html"><button class="btn btn-primary">Click To Open</button></a> </p>
+                    <p> <a href="cs_project1.php"><button class="btn btn-primary">Click To Open</button></a> </p>
                 </div>
             </div>
         </div>
@@ -238,7 +240,7 @@
                     <p>EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
                             Make your Image  in industry Eye.
                     </p>
-                    <p> <a href="cs_project1.html"><button class="btn btn-primary">Click To Open</button></a> </p>
+                    <p> <a href="cs_project1.php"><button class="btn btn-primary">Click To Open</button></a> </p>
                 </div>
             </div>
         </div>
@@ -250,7 +252,7 @@
                     <p>EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
                             Make your Image  in industry Eye.
                     </p>
-                    <p> <a href="cs_project1.html"><button class="btn btn-primary">Click To Open</button></a> </p>
+                    <p> <a href="cs_project1.php"><button class="btn btn-primary">Click To Open</button></a> </p>
                 </div>
             </div>
         </div>

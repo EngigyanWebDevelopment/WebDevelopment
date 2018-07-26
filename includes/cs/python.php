@@ -62,8 +62,8 @@
                                 <li><a class="dropdown-item" href="ai.php">Artificial Intelligence</a></li>
                                 <li><a class="dropdown-item" href="bigdata.php">Big Data</a></li>
                                 <li><a class="dropdown-item" href="matlab.php">MATLAB</a></li>
-                                <li><a class="dropdown-item" href="#">Web Developement</a></li>
-                                <li><a class="dropdown-item" href="#">App Developement</a></li>
+                                <li><a class="dropdown-item" href="webdev.php">Web Developement</a></li>
+                                <li><a class="dropdown-item" href="appdev.php">App Developement</a></li>
                                 <li><a class="dropdown-item" href="ml.php">Machine Learning</a></li>
                             </ul>
                         </li>

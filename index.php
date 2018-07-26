@@ -114,6 +114,7 @@
                             <li><a class="dropdown-item" href="includes/cs/webdev.php">Web Developement</a></li>
                             <li><a class="dropdown-item" href="includes/cs/appdev.php">App Developement</a></li>
                             <li><a class="dropdown-item" href="includes/cs/ml.php">Machine Learning</a></li>
+                            <li><a class="dropdown-item" href="includes/cs/digimarket.php">Digital Marketing</a></li>
                         </ul>
                     </li>
                     <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Mechanical Engineering</a>
@@ -328,7 +329,7 @@
                                 </div>
                                 <p class="c6-text" style="text-align: center !important; margin-top: 5px !important;">Want to take some industry Projects?</p>
                             </div>
-                            <div style="text-align: center !important;"><a href="includes/projects.html" class="card-link btn btn-primary">View Now</a></div>
+                            <div style="text-align: center !important;"><a href="includes/projects.php" class="card-link btn btn-primary">View Now</a></div>
                         </div>
                     </div>
                     <div class="item">

@@ -65,6 +65,7 @@
                                 <li><a class="dropdown-item" href="webdev.php">Web Developement</a></li>
                                 <li><a class="dropdown-item" href="appdev.php">App Developement</a></li>
                                 <li><a class="dropdown-item" href="ml.php">Machine Learning</a></li>
+                                <li><a class="dropdown-item" href="digimarket.php">Digital Marketing</a></li>
                             </ul>
                         </li>
                         <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Mechanical Engineering</a>
