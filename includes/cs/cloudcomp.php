@@ -68,10 +68,10 @@
                         </li>
                         <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Mechanical Engineering</a>
                             <ul class="dropdown-menu" id="sub-menu">
-                                <li><a class="dropdown-item" href="../mechanical/solidworks.html">SolidWorks</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/catia.html">CATIA</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/autocad.html">AutoCAD</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/ansys.html">ANSIS</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/solidworks.php">SolidWorks</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/catia.php">CATIA</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/autocad.php">AutoCAD</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/ansys.php">ANSIS</a></li>
                                 <li><a class="dropdown-item" href="#">CDF Analysis</a></li>
                                 <li><a class="dropdown-item" href="#">Hyper Works</a></li>
                             </ul>
@@ -294,15 +294,15 @@
             <h3>Check Your Proficiency</h3>
             <div id="check">
                 <form action="" style="width: 100% !important;">
-                    <div class="question">
+                <div class="question">
                         <div class="row">
                             Q1.	Which of the following service offers unlimited storage space ?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">Adrive <br>
-                            <input type="radio" name="ans" id="">4shared <br>
-                            <input type="radio" name="ans" id="">Badongo <br>
-                            <input type="radio" name="ans" id="">All of the mentioned
+                            <input type="radio" name="ans0" id="">Adrive <br>
+                            <input type="radio" name="ans0" id="">4shared <br>
+                            <input type="radio" name="ans0" id="">Badongo <br>
+                            <input type="radio" name="ans0" id="">All of the mentioned
                         </div>
                     </div>
                     <div class="question">
@@ -310,10 +310,10 @@
                              Q2. Which of the following service has WebDAV as developer API ?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">Adrive <br>
-                            <input type="radio" name="ans" id="">Drop.io <br>
-                            <input type="radio" name="ans" id="">Dropbox <br>
-                            <input type="radio" name="ans" id="">All of the mentioned
+                            <input type="radio" name="ans1" id="">Adrive <br>
+                            <input type="radio" name="ans1" id="">Drop.io <br>
+                            <input type="radio" name="ans1" id="">Dropbox <br>
+                            <input type="radio" name="ans1" id="">All of the mentioned
                         </div>
                     </div>
                     <div class="question">
@@ -321,10 +321,10 @@
                             Q3. Which of the following are Managed cloud storage providers ?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">EMC Atmos <br>
-                            <input type="radio" name="ans" id="">Amazon.com Simple Storage Service <br>
-                            <input type="radio" name="ans" id="">IBM Smart Business Storage Cloud <br>
-                            <input type="radio" name="ans" id="">All of the mentioned
+                            <input type="radio" name="ans2" id="">EMC Atmos <br>
+                            <input type="radio" name="ans2" id="">Amazon.com Simple Storage Service <br>
+                            <input type="radio" name="ans2" id="">IBM Smart Business Storage Cloud <br>
+                            <input type="radio" name="ans2" id="">All of the mentioned
                         </div>
                     </div>
                     <div id="accordion">
@@ -340,10 +340,10 @@
                                         Q4. Which of the following service is provided by Google for online storage ?
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">Drive <br>
-                                        <input type="radio" name="ans" id="">SkyDrive <br>
-                                        <input type="radio" name="ans" id="">Dropbox <br>
-                                        <input type="radio" name="ans" id="">All of the mentioned
+                                        <input type="radio" name="ans3" id="">Drive <br>
+                                        <input type="radio" name="ans3" id="">SkyDrive <br>
+                                        <input type="radio" name="ans3" id="">Dropbox <br>
+                                        <input type="radio" name="ans3" id="">All of the mentioned
                                     </div>
                                 </div>
                                 <div class="question">
@@ -351,10 +351,10 @@
                                         Q5. Which of the following offer direct competition to Amazon’s S3 service ?
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">Nirvanix <br>
-                                        <input type="radio" name="ans" id="">Rackspace Cloud <br>
-                                        <input type="radio" name="ans" id="">Badongo <br>
-                                        <input type="radio" name="ans" id="">All of the mentioned
+                                        <input type="radio" name="ans4" id="">Nirvanix <br>
+                                        <input type="radio" name="ans4" id="">Rackspace Cloud <br>
+                                        <input type="radio" name="ans4" id="">Badongo <br>
+                                        <input type="radio" name="ans4" id="">All of the mentioned
                                     </div>
                                 </div>
                             </div>

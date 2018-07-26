@@ -69,10 +69,10 @@
                         </li>
                         <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Mechanical Engineering</a>
                             <ul class="dropdown-menu" id="sub-menu">
-                                <li><a class="dropdown-item" href="../mechanical/solidworks.html">SolidWorks</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/catia.html">CATIA</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/autocad.html">AutoCAD</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/ansys.html">ANSIS</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/solidworks.php">SolidWorks</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/catia.php">CATIA</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/autocad.php">AutoCAD</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/ansys.php">ANSIS</a></li>
                                 <li><a class="dropdown-item" href="#">CDF Analysis</a></li>
                                 <li><a class="dropdown-item" href="#">Hyper Works</a></li>
                             </ul>
