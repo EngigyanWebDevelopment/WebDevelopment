@@ -26,7 +26,7 @@ var x = setInterval(function() {
         document.getElementById("upcour1").innerHTML = "JAVA";
         document.getElementById("c-imgx2").src = "images/java.jpg";
         document.getElementById("upcour2").innerHTML = "Digital Marketing";
-        document.getElementById("c-imgx3").src = "images/digimarket.jpg";
+        document.getElementById("c-imgx3").src = "images/digimarket.png";
     }
     else if(hrs>10 && hrs<=11){
         hx="Sep 5, 2040 11:00:00";
@@ -35,7 +35,7 @@ var x = setInterval(function() {
         document.getElementById("upcour").innerHTML = "JAVA";
         document.getElementById("c-imgx1").src = "images/java.png";
         document.getElementById("upcour1").innerHTML = "Digital Marketing";
-        document.getElementById("c-imgx2").src = "images/digimarket.jpg";
+        document.getElementById("c-imgx2").src = "images/digimarket.png";
         document.getElementById("upcour2").innerHTML = "Robotics"
         document.getElementById("c-imgx3").src = "images/robotics.jpg";
     }
@@ -43,7 +43,7 @@ var x = setInterval(function() {
         hx="Sep 5, 2040 12:00:00";
         hx1="Sep 5, 2040 13:00:00";
         document.getElementById("upcour").innerHTML = "Digital Marketing";
-        document.getElementById("c-imgx1").src = "images/digimarket.jpg";
+        document.getElementById("c-imgx1").src = "images/digimarket.png";
         document.getElementById("upcour1").innerHTML = "Robotics";
         document.getElementById("c-imgx2").src = "images/robotics.jpg";
         document.getElementById("cit").classList.remove("carousel-item");
@@ -63,7 +63,7 @@ var x = setInterval(function() {
         hx1="Sep 5, 2040 18:00:00";
         hx2="Sep 5, 2040 19:00:00";
         document.getElementById("upcour").innerHTML = "A.I";
-        document.getElementById("c-imgx1").src = "images/aijpg";
+        document.getElementById("c-imgx1").src = "images/ai.jpg";
         document.getElementById("upcour1").innerHTML = "C++";
         document.getElementById("c-imgx2").src = "images/cpp.jpg";
         document.getElementById("upcour2").innerHTML = "AutoCAD";

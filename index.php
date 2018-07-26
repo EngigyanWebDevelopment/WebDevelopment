@@ -172,14 +172,14 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <form action="/action_page.php">
+                    <form action="login.php" method = "post">
                         <div class="form-group">
                             <label for="email">Email address:</label>
-                            <input type="email" class="form-control" id="email" placeholder="ex:abc@example.com">
+                            <input type="email" class="form-control" id="email" placeholder="ex:abc@example.com" name = "email">
                         </div>
                         <div class="form-group">
                             <label for="pwd">Password:</label>
-                            <input type="password" class="form-control" id="pwd" placeholder="Password">
+                            <input type="password" class="form-control" id="pwd" placeholder="Password" name = "pwd">
                         </div>
                         <div class="checkbox">
                             <label><input type="checkbox"> Remember me</label>
@@ -1221,7 +1221,7 @@
                 <ul style="list-style-type: none;" id="foot_ul">
                     <li><a href="includes/aboutus.php" id="foo">About Us</a></li>
                     <li><a href="" id="foo">News & Media</a></li>
-                    <li><a href="contactus" id="foo">Contact Us</a></li>
+                    <li><a href="includes/contactus.html" id="foo">Contact Us</a></li>
                     <li><a href="http://www.engigyaneducation.blogspot.com/" id="foo">Blog</a></li>
                 </ul>
             </div>

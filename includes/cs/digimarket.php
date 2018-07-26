@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../../css/courses.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -297,31 +298,28 @@
             <h3>Check Your Proficiency</h3>
             <div id="check">
                 <form action="" style="width: 100% !important;">
-                    <div class="question">
+                <div class="question">
                         <div class="row">
-                            Q1. The Java interpreter is used for the execution of the source code.
+                            Q1. What are the different ways to promote digital marketing?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">True <br>
-                            <input type="radio" name="ans" id="">False
+                            <textarea name="" id="" cols="100" rows="3" style="max-width: 100%; max-height: 10%;"></textarea>
                         </div>
                     </div>
                     <div class="question">
                         <div class="row">
-                             Q2. On successful compilation a file with the class extension is created.
+                             Q2. What are the top digital marketing tools you are aware of?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">True <br>
-                            <input type="radio" name="ans" id="">False
+                            <textarea name="" id="" cols="100" rows="3" style="max-width: 100%; max-height: 10%;"></textarea>
                         </div>
                     </div>
                     <div class="question">
                         <div class="row">
-                            Q3. The Java source code can be created in a Notepad editor. 
+                            Q3. Can you explain about Google Adwords?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">True <br>
-                            <input type="radio" name="ans" id="">False
+                            <textarea name="" id="" cols="100" rows="3" style="max-width: 100%; max-height: 10%;"></textarea>
                         </div>
                     </div>
                     <div id="accordion">
@@ -334,16 +332,7 @@
                             <div id="collapseTwo" class="collapse" data-parent="#accordion">
                                 <div class="question">
                                     <div class="row">
-                                        Q4. The Java Program is enclosed in a class definition. 
-                                    </div>
-                                    <div class="">
-                                        <input type="radio" name="ans" id="">True <br>
-                                        <input type="radio" name="ans" id="">False
-                                    </div>
-                                </div>
-                                <div class="question">
-                                    <div class="row">
-                                        Q5. What is the difference between equals() and == ? 
+                                        Q4. Name some areas where keyword optimization is done?
                                     </div>
                                     <div class="">
                                         <textarea name="" id="" cols="100" rows="3" style="max-width: 100%; max-height: 10%;"></textarea>
@@ -351,7 +340,23 @@
                                 </div>
                                 <div class="question">
                                     <div class="row">
-                                        Q6. What is runtime polymorphism or dynamic method dispatch?
+                                        Q5. How has your qualification helped your digital marketing career?
+                                    </div>
+                                    <div class="">
+                                        <textarea name="" id="" cols="100" rows="3" style="max-width: 100%; max-height: 10%;"></textarea>
+                                    </div>
+                                </div>
+                                <div class="question">
+                                    <div class="row">
+                                        Q6. Why is online marketing preferred more than offline marketing?
+                                    </div>
+                                    <div class="">
+                                        <textarea name="" id="" cols="100" rows="3" style="max-width: 100%; max-height: 10%;"></textarea>
+                                    </div>
+                                </div>
+                                <div class="question">
+                                    <div class="row">
+                                        Q7. What are the different types of SEO Practices?
                                     </div>
                                     <div class="">
                                         <textarea name="" id="" cols="100" rows="3" style="max-width: 100%; max-height: 10%;"></textarea>
