@@ -1,33 +1,3 @@
-<!DOCTYPE HTML>  
-<html>
-<head><title>Enter Your Details</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style> 
-.error {color: #FF0000;}
-.correct {color: #008000;}
-.pinfo {
-    z-index: 1;
-	border: 2px solid #FF;
-	
-}
-#tex_i {
-    width: 240px;
-    border: none;
-    border-bottom: 1px solid grey;
-    background-color: inherit;
-}
-
-input:valid {
-	border = 1px solid #008000;
-}
-input:invalid {
-	border = 1px dashed #FF00FF;
-}
-
-</style>
-</head>
-<body>  
 <script>
 function checkappl() {
 	var x = document.getElementById("search").value;
@@ -49,36 +19,51 @@ $name = $email = $gender = $uname = $mobno = $college = $clg = $sqlnewcollege = 
 $nameErr = $emailErr = $genderErr = $unameerr = $phoneerr = $collgename = $collegeErr = $clgnameErr = "  * ";
 ?>
 <br><br>
-<div class="container-fluid">
-  <div class="container">
-  <h3>Ambassadors Registration Form</h2>
-<h6>Hey !Ambassador Search Your College To get Started and register for our Programme </h6>
-<p><span class="error"><strong>* required fields </strong></span></p>
-<strong>
+<div class="containe-fluid">
+<div class="ghghk"><h3>Ambassadors Registration Form</h2></div>
+<div class="ghghk"><h6>Hey !Ambassador Search Your College To get Started and register for our Programme </h6></div>
 <p id="nameentered"></p>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" enctype="multipart/form-data">  
-  <fieldset class = "pinfo">
+  <div class="containe">
+<form class="amd-form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" enctype="multipart/form-data">  
     <legend>Personal information:</legend>
-  <strong>Please Upload your image </strong><input type="file" name="fileimg" /><span class="error">*</span><br><br>
-  College : <input type="text" id="clgtext" name="myInput" oninput="myFunction()" placeholder="Search Your College : "><span class="error"><?php echo $collegeErr; ?></span>
-  <br><br>
-  Name: <input type="text" name="name" id="tex_i"><span class="error"><?php echo $nameErr; ?></span>
-  <br><br>
-  E-mail: <input type="text" name="email" id="tex_i"><span class="error"><?php echo $emailErr; ?></span>
-  <br><br>
-  Uname: <input type="text" name="uname" id="tex_i"><span class="error"><?php echo $unameerr; ?></span> 
-  <br><br>
-  Phone: <input type="text" name="phone" id="tex_i"><span class="error"><?php echo $phoneerr; ?></span>
-  <br><br>
-  Gender:
-  <input type="radio" name="gender" value="female">Female
-  <input type="radio" name="gender" value="male">Male
-  <input type="radio" name="gender" value="other">Other <span class="error"><? php echo "*"; ?></span>
-  <br><br>
+    <p><span class="error"><strong>* required fields </strong></span></p>
+  <strong>Please Upload your image </strong><input type="file"  id="tex_i" name="fileimg" /><span class="error">*</span><br><br>
+  
+  <table class="amb-table">
+    <tr>
+      <td> College : </td>
+      <td><input type="text" id="clgtext" name="myInput" oninput="myFunction()" placeholder="Search Your College : "><span class="error"><?php echo $collegeErr; ?></span>  </td> 
+    </tr> 
+    <tr>
+      <td>Name:</td>  
+      <td><input type="text" name="name" id="tex_i"><span class="error"><?php echo $nameErr; ?></span></td> 
+    </tr>
+    <tr>
+      <td>E-mail: </td> 
+      <td><input type="text" name="email" id="tex_i"><span class="error"><?php echo $emailErr; ?></span></td> 
+    </tr>
+    <tr>
+      <td>Uname:</td> 
+      <td><input type="text" name="uname" id="tex_i"><span class="error"><?php echo $unameerr; ?></span> </td> 
+    </tr>
+    <tr>
+      <td>Phone:</td>  
+      <td><input type="text" name="phone" id="tex_i"><span class="error"><?php echo $phoneerr; ?></span></td> 
+    </tr>
+    <tr>
+      <td>Gender:</td> 
+      <td>
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="other">Other <span class="error"><? php echo "*"; ?></span>
+      </td>
+    </tr>
+  </table>
+ 
+  
+
   <input type="submit" name="submit" value="Submit">  
-  </fieldset>
 </form>
-</strong>
   </div>
 </div>
 <br><br>
@@ -275,6 +260,3 @@ function couldnotbesaved($data) {
     //}
 ?>
 
-
-</body>
-</html>

@@ -1142,7 +1142,7 @@
                         <div class="itemx">
                             <div class="team-member text-center" id="ment_c">
                                 <div class="team-img">
-                                    <img src="images/sonu_singh.png" class="mx-auto d-block rounded-circle" alt="" id="c-img2">
+                                    <img src="images/sarthakshah.jpg" class="mx-auto d-block rounded-circle" alt="" id="c-img2">
                                     <div class="overlayx">
                                         <div class="team-details text-center">
                                             <p>
