@@ -11,8 +11,9 @@ nav{
     font-weight: bold !important;
 }
 .navbar-brand{
+    font-family: 'Courier New', Courier, monospace !important;
     font-size: 30px !important;
-    font-weight: 500 !important;
+    font-weight: bolder !important;
 }
 .navbar-nav>li>a:hover{
     background: rgba(192, 192, 192, 0.61) !important;
@@ -669,6 +670,20 @@ nav{
     color: white;
     padding: 10px;
 }
+#mnmnmn{
+    width: 100%;
+}
+.highlights{
+    margin-top: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(to right,#581845,#900C3F,#C70039);
+    color: white;
+}
 #c_dif{
     border-bottom: 1.5px solid lightgrey;
     padding: 5px;
@@ -916,6 +931,9 @@ nav{
         padding-left: 0px !important;
     }
     #teachers{
+        padding: 10px !important;
+    }
+    #review{
         padding: 10px !important;
     }
     #menu.show {

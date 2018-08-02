@@ -241,7 +241,7 @@
                             <h3>COMPUTER SCIENCE</h3>
                             <p id="qwert">Get some coding Projects</p>
                             <br> <br> <br> 
-                            <a href="cs/cs_projects.html"><button> Get Now </button></a>
+                            <a href="cs/cs_projects.php"><button> Get Now </button></a>
                         </div>
                     </div>
                 </div>

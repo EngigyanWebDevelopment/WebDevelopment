@@ -107,8 +107,12 @@
     box-shadow: 0px 3px 6px -1px #888888;
 }
 #zxcvb{
-    justify-content: center !important;
+    display: block;
+    text-align:  center !important;
     padding: 20px;
+}
+#mnmnmn{
+    min-width: 800% !important;
 }
 #zxcve{
     justify-content: center !important;

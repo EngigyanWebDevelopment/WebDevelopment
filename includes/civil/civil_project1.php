@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel='shortcut icon' href='../../images/favicon.ico' type='image/x-icon'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="../../css/courses.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -30,8 +32,8 @@
             <span class="loading" data-name="Loading">Loading</span>
         </div>
     </div>  
-    <nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-top">
-        <a class="navbar-brand" href="#"><img class="img-fluid" src="images/engigyan.png" alt="" id="logo"> EngiGyan</a>
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="../../images/engigyan.png" alt="" id="logo"> EngiGyan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -95,32 +97,16 @@
                 </li>  
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <div class="link-nav">SERVICES</div>
+                        <div class="link-nav">AUTO E PREP</div>
                     </a>
                 </li>   
                 <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">
+                    <a class="nav-link" href="../aboutus.php">
                         <div class="link-nav">ABOUT US</div>
                     </a>
                 </li> 
             </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item" id="spc">
-                    <a class="nav-link" href="#">
-                        <div class="link-nav">Auto E PREP</div>
-                    </a>
-                </li>
-                <li class="nav-item" id="spc1">
-                    <a class="nav-link" href="#">
-                        <div class="link-nav" data-toggle="modal" data-target="#login">Log In</div>
-                    </a>
-                </li>
-                <li class="nav-item" id="spc2">
-                    <a class="nav-link" href="#">
-                        <div class="link-nav" data-toggle="modal" data-target="#register">Register</div>
-                    </a>
-                </li>
-            </ul>
+            <?php include'navbarCheck.php'?>
         </div>  
     </nav>
     <!-- modal box for login-->
@@ -211,90 +197,64 @@
             </div>
         </div>
     </div> 
-    <div class="jumbotron" id="abcde">
-        <p id="contents">Industrial projects helps students to get hands-on practice and enhances their Technical skills
-            Join engineers in professional product design challenges. Show your skills and win prizes.
+    <div class="jumbotron" id="abcde" style="background: #770000 !important; color: white !important;">
+        <p id="contents">EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
+                Make your Image  in industry Eye.
         </p>
     </div>
     
-    <div class="container">
-        <div class="row">
-            <div class="media border p-3">
-                <img src="../../images/mech_p_1.png" alt="" class="mr-3 mt-3" style="width:200px;">
-                <div class="media-body">
-                    <h4>Crutch Accessory Challenge <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
-                            Make your Image  in industry Eye.
-                    </p>
-                    <p> <a href="civil_project1.html"><button class="btn btn-primary">Click To Open</button></a> </p>
-                </div>
+    <div class="container" id="asdfg">
+        <div class="row" id="zxcv">
+            
+        </div>
+        <div class="row" id="zxcvb">
+            <p><h2>I need article writers for my affiliate niche 11 -- 4</h2></p>
+            <p>Each article must be of 1000 - 2000 words length. I'll give titles and keywords/subject matter. Will also be given clear instructions on the format and how to structure the content for best ranking. Use of LSI keywords </p>
+        </div>
+        <div class="row" id="zxcve">
+            <div class="col-sm-12 col-lg-6">
+                <h3>Requirements</h3>
+                <ol>
+                    <li>
+                    Article Rewriting 
+                    </li>
+                    <li>
+                    Article Writing 
+                    </li>
+                    <li>
+                    Blog  
+                    </li>
+                    <li>
+                    Content Writing | SEO 
+                    </li>
+                </ol>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <h3>Prizes</h3>
+                <strong>
+                <ul style="list-style-type: none;">
+                    <li>
+                        1<sup>st</sup> . Prize: Rs 1500 /-  and  EngiGyan  T-Shirt
+                    </li>
+                    <li>
+                        2<sup>nd</sup> . Prize: Rs 1000 /-  and  EngiGyan  T-Shirt
+                    </li>
+                    <li>
+                        3<sup>rd</sup> . Prize: Rs 500 /-  and  EngiGyan  T-Shirt
+                    </li>
+                </ul>
+                </strong>
             </div>
         </div>
-        <div class="row">
-            <div class="media border p-3">
-                <img src="../../images/mech_p_1.png" alt="" class="mr-3 mt-3" style="width:200px;">
-                <div class="media-body">
-                    <h4>Crutch Accessory Challenge <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
-                            Make your Image  in industry Eye.
-                    </p>
-                    <p> <a href="civil_project1.html"><button class="btn btn-primary">Click To Open</button></a> </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3">
-                <img src="../../images/mech_p_1.png" alt="" class="mr-3 mt-3" style="width:200px;">
-                <div class="media-body">
-                    <h4>Crutch Accessory Challenge <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
-                            Make your Image  in industry Eye.
-                    </p>
-                    <p> <a href="civil_project1.html"><button class="btn btn-primary">Click To Open</button></a> </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3">
-                <img src="../../images/mech_p_1.png" alt="" class="mr-3 mt-3" style="width:200px;">
-                <div class="media-body">
-                    <h4>Crutch Accessory Challenge <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
-                            Make your Image  in industry Eye.
-                    </p>
-                    <p> <a href="civil_project1.html"><button class="btn btn-primary">Click To Open</button></a> </p>
-                </div>
-            </div>
+        <div class="row" id="sss">
+            <button class="btn btn-primary"> Register </button>
         </div>
     </div>
 
  <br><br>
 
 
-    <div class="container-fluid" id="footer">
-        <div class="">
-            <div class="">
-                <h2>EngiGyan</h2>
-                <p>EngiGyan is leading best Live online Software training in India.</p>
-            </div>
-            <div class="">
-                Follow <br>
-                <a href="https://www.facebook.com/engigyan"><i class="fa fa-facebook-square" style="font-size:24px; color: whitesmoke"></i></a> &nbsp;
-                <a href="https://www.linkedin.com/in/engigyan/"> <i class="fa fa-linkedin" style="font-size:24px; color: whitesmoke"></i> </a> &nbsp;
-                <a href="http://"> <i class="fa fa-youtube-play" style="font-size:24px; color: whitesmoke"></i> </a>
-            </div>
-        </div>
-        <div class="">
-            <div class="">
-                <h2>Contact Us</h2>
-                <p>Cabin F-2, SMVDU-TBIC <br> Katra, J&K, (182320)</p>
-            </div>
-            <div class="">
-                mail id: <a href="mailto:info@engigyan.com" id="foo">info@engigyan.com </a> <br>
-                Contact Us: (+919596098157, +919149604575)
-            </div>
-        </div>
-    </div>
+    <?php include'footer.php'?>
 </body>
 <script src="../../js/dropdown.js"></script>
 <script>

@@ -83,7 +83,7 @@
         </div>
     </div>  
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
-    <a class="navbar-brand" href="https://engigyan.000webhostapp.com/"><img class="img-fluid" src="images/engigyan.png" alt="" id="logo"> EngiGyan</a>
+    <a class="navbar-brand" href="https://engigyan.com/"><img class="img-fluid" src="images/engigyan.png" alt="" id="logo"> EngiGyan</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -511,9 +511,9 @@
             </div>
         </div>
     </div>
+    <div class="highlights"><h3 style="text-align: center !important;">How Can We Enhance you Skills?</h3><br></div>
     <div class="container-fluid" id="how">
         <div class="container">
-            <h1 style="text-align: center !important;">How can we enhance your skills?</h1>
             <table class="table">
                 <tbody>
                     <tr>
@@ -540,8 +540,8 @@
             </table>
         </div>
     </div>
+    <div class="highlights"><h1 style="text-align: center !important;">Training Highlights</h1><br></div>
     <div class="container-fluid" id="thi">
-        <div class="highlights"><h1 style="text-align: center !important;">Training Highlights</h1><br></div>
         <div class="container"> 
             <div class="row">
                 <div class="col-sm-4">
@@ -571,9 +571,9 @@
             </div>
         </div>
     </div>
+    <div class="highlights"><h3 style="text-align: center !important;">What Do You Get Here!!</h3><br></div>
     <div class="container-fluid" id="here">
         <div class="container">
-            <div class="highlights"><h1 style="text-align: center !important;">What Do You Get Here!!</h1><br></div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card">
@@ -636,7 +636,7 @@
     </div>
     <div class="container-fluid" id="courses">
         <div class="row" id="c_name">
-            <div class="hhh"><h3 style="">Computer Science</h3></div>
+            <div class="hhh"><h3 style="">Computer Science Courses</h3></div>
         </div>
         <section id="demos">
             <div class="">
@@ -778,7 +778,7 @@
         </section>
         
         <div class="row" id="c_name">
-            <div class="hhh"><h3>Mechanical Engineering</h3></div>
+            <div class="hhh"><h3>Mechanical Engineering Courses</h3></div>
         </div>
         <section id="demos">
             <div class="">
@@ -870,7 +870,7 @@
         </section>
         
         <div class="row" id="c_name">
-            <div class="hhh"><h3>Civil Engineering</h3></div>
+            <div class="hhh"><h3>Civil Engineering Courses</h3></div>
         </div>
         <section id="demos">
             <div class="ed3">
@@ -942,7 +942,7 @@
         </section>
         
         <div class="row" id="c_name">
-            <div class="hhh"><h3>Electrical Engineering</h3></div>
+            <div class="hhh"><h3>Electrical Engineering Courses</h3></div>
         </div>
         <section id="dem">
             <div class="">
@@ -1023,8 +1023,8 @@
             </div>
         </section>
     </div>
+    <div class="highlights"><h1 style="text-align: center !important;">Our Team</h1><br></div>
     <div class="container-fluid" id="teachers">
-        <div class="highlights"><h1 style="text-align: center !important;">Our Team</h1><br></div>
         <section id="democ">
             <div class="" style="padding: 0px !important;">
                 <div class="large-8 columns">
@@ -1160,8 +1160,8 @@
             </div>
         </section>
     </div>
+    <div class="highlights"><h1 style="text-align: center !important;">Student's Feedback</h1><br></div>
     <div class="container-fluid" id="review">
-        <div class="highlights"><h1 style="text-align: center !important;">Student's Feedback</h1><br></div>
         <div class="container">
             <div id="demox" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->

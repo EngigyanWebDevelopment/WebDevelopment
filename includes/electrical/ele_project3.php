@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Industrial Projects in Electrical Engineering</title>
+    <title>Industrial Projects in Civil Engineering</title>
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/courses.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -31,8 +32,8 @@
             <span class="loading" data-name="Loading">Loading</span>
         </div>
     </div>  
-    <nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-top">
-        <a class="navbar-brand" href="#"><img class="img-fluid" src="images/engigyan.png" alt="" id="logo"> EngiGyan</a>
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="../../images/engigyan.png" alt="" id="logo"> EngiGyan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -96,32 +97,16 @@
                 </li>  
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <div class="link-nav">SERVICES</div>
+                        <div class="link-nav">AUTO E PREP</div>
                     </a>
                 </li>   
                 <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">
+                    <a class="nav-link" href="../aboutus.php">
                         <div class="link-nav">ABOUT US</div>
                     </a>
                 </li> 
             </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item" id="spc">
-                    <a class="nav-link" href="#">
-                        <div class="link-nav">Auto E PREP</div>
-                    </a>
-                </li>
-                <li class="nav-item" id="spc1">
-                    <a class="nav-link" href="#">
-                        <div class="link-nav" data-toggle="modal" data-target="#login">Log In</div>
-                    </a>
-                </li>
-                <li class="nav-item" id="spc2">
-                    <a class="nav-link" href="#">
-                        <div class="link-nav" data-toggle="modal" data-target="#register">Register</div>
-                    </a>
-                </li>
-            </ul>
+            <?php include'navbarCheck.php'?>
         </div>  
     </nav>
     <!-- modal box for login-->
@@ -220,23 +205,27 @@
     
     <div class="container" id="asdfg">
         <div class="row" id="zxcv">
-            <img src="../../images/mech_p_1.png" alt="" class="img-fluid">
+            
         </div>
         <div class="row" id="zxcvb">
-            <p>Create a 3D printable attachment for Crutches that allow you to carry a drink & a plate of Food.</p>
+            <p><h2>Data Entry   </h2></p>
+            <p>I have some work, in an Excel spreadsheet. </p>
         </div>
         <div class="row" id="zxcve">
             <div class="col-sm-12 col-lg-6">
                 <h3>Requirements</h3>
                 <ol>
                     <li>
-                        CAD File in IGES File Format
+                    Data Entry 
                     </li>
                     <li>
-                        FEA to ensure strength of your submission.
+                    Editing 
                     </li>
                     <li>
-                        STEP File Submission so that your design must be 3D Printable.
+                    Electronics   
+                    </li>
+                    <li>
+                    Excel 
                     </li>
                 </ol>
             </div>
@@ -257,24 +246,6 @@
                 </strong>
             </div>
         </div>
-        <div class="row" id="kkk">
-            <h3 style="text-align: center;">Judging Creteria</h3>
-            <p>Design should have ability to accommodate a range of different styles of cups, Bottles, dishes</p>
-            <ol>
-                <li>
-                    Can not spill any of the contents while using the crutches
-                </li>
-                <li>
-                    Attachable to a standard crutch (Hole size :7 mm, Screw Size : 5 mm)
-                </li>
-                <li>
-                    Cup attached must hold at least 300 ml of liquid without spilling.
-                </li>
-                <li>
-                    3D printable
-                </li>
-            </ol>
-        </div>
         <div class="row" id="sss">
             <button class="btn btn-primary"> Register </button>
         </div>
@@ -283,30 +254,7 @@
  <br><br>
 
 
-    <div class="container-fluid" id="footer">
-        <div class="">
-            <div class="">
-                <h2>EngiGyan</h2>
-                <p>EngiGyan is leading best Live online Software training in India.</p>
-            </div>
-            <div class="">
-                Follow <br>
-                <a href="https://www.facebook.com/engigyan"><i class="fa fa-facebook-square" style="font-size:24px; color: whitesmoke"></i></a> &nbsp;
-                <a href="https://www.linkedin.com/in/engigyan/"> <i class="fa fa-linkedin" style="font-size:24px; color: whitesmoke"></i> </a> &nbsp;
-                <a href="http://"> <i class="fa fa-youtube-play" style="font-size:24px; color: whitesmoke"></i> </a>
-            </div>
-        </div>
-        <div class="">
-            <div class="">
-                <h2>Contact Us</h2>
-                <p>Cabin F-2, SMVDU-TBIC <br> Katra, J&K, (182320)</p>
-            </div>
-            <div class="">
-                mail id: <a href="mailto:info@engigyan.com" id="foo">info@engigyan.com </a> <br>
-                Contact Us: (+919596098157, +919149604575)
-            </div>
-        </div>
-    </div>
+    <?php include'footer.php'?>
 </body>
 <script src="../../js/dropdown.js"></script>
 <script>

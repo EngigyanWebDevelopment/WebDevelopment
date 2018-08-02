@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Industrial Projects in Computer Science</title>
+    <title>Industrial Projects in Civil Engineering</title>
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/courses.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
@@ -50,13 +51,13 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="menu">
                         <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Computer Science</a>
                             <ul class="dropdown-menu" id="sub-menu">
-                                <li><a class="dropdown-item" href="cpp.php">C++</a></li>
-                                <li><a class="dropdown-item" href="java.php">JAVA</a></li>
-                                <li><a class="dropdown-item" href="mysql.php">MySQL</a></li>
-                                <li><a class="dropdown-item" href="python.php">Python</a></li>
-                                <li><a class="dropdown-item" href="linux.php">LINUX</a></li>
-                                <li><a class="dropdown-item" href="ai.php">Artificial Intelligence</a></li>
-                                <li><a class="dropdown-item" href="bigdata.php">Big Data</a></li>
+                                <li><a class="dropdown-item" href="../cs/cpp.html">C++</a></li>
+                                <li><a class="dropdown-item" href="../cs/java.html">JAVA</a></li>
+                                <li><a class="dropdown-item" href="../cs/mysql.html">MySQL</a></li>
+                                <li><a class="dropdown-item" href="../cs/python.html">Python</a></li>
+                                <li><a class="dropdown-item" href="../cs/linux.html">LINUX</a></li>
+                                <li><a class="dropdown-item" href="../cs/ai.html">Artificial Intelligence</a></li>
+                                <li><a class="dropdown-item" href="../cs/bigdata.html">Big Data</a></li>
                                 <li><a class="dropdown-item" href="#">Web Developement</a></li>
                                 <li><a class="dropdown-item" href="#">App Developement</a></li>
                                 <li><a class="dropdown-item" href="#">Machine Learning</a></li>
@@ -64,10 +65,10 @@
                         </li>
                         <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Mechanical Engineering</a>
                             <ul class="dropdown-menu" id="sub-menu">
-                                <li><a class="dropdown-item" href="../mechanical/solidworks.php">SolidWorks</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/catia.php">CATIA</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/autocad.php">AutoCAD</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/ansys.php">ANSIS</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/solidworks.html">SolidWorks</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/catia.html">CATIA</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/autocad.html">AutoCAD</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/ansys.html">ANSIS</a></li>
                                 <li><a class="dropdown-item" href="#">CDF Analysis</a></li>
                                 <li><a class="dropdown-item" href="#">Hyper Works</a></li>
                             </ul>
@@ -196,48 +197,63 @@
             </div>
         </div>
     </div> 
-    <div class="jumbotron" id="abcde">
-        <p id="contents">Industrial projects helps students to get hands-on practice and enhances their Technical skills
-            Join engineers in professional product design challenges. Show your skills and win prizes.
+    <div class="jumbotron" id="abcde" style="background: #770000 !important; color: white !important;">
+        <p id="contents">EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
+                Make your Image  in industry Eye.
         </p>
     </div>
     
-    <div class="container">
-        <div class="row">
-            <div class="media border p-3" id="mnmnmn">
-                <div class="media-body">
-                    <h4>Hope Academy School  <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>I need a new website. I need you to design and build a website for my small business. 
-                    </p>
-                    <p> <a href="cs_project1.php"><button class="btn btn-primary">Click To Open</button></a> </p>
-                </div>
+    <div class="container" id="asdfg">
+        <div class="row" id="zxcv">
+            
+        </div>
+        <div class="row" id="zxcvb">
+            <p>Do some data correction in an excel sheet for automotive brands and their manufacturing products and particular information like price,unit and other such details.</p>
+        </div>
+        <div class="row" id="zxcve">
+            <div class="col-sm-12 col-lg-6">
+                <h3>Requirements</h3>
+                <ol>
+                    <li>
+                    Data Entry
+                    </li>
+                    <li>
+                    Data Mining  
+                    </li>
+                    <li>
+                    | Data Processing   
+                    </li>
+                    <li>
+                    Excel  
+                    </li>
+                </ol>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <h3>Prizes</h3>
+                <strong>
+                <ul style="list-style-type: none;">
+                    <li>
+                        1<sup>st</sup> . Prize: Rs 1500 /-  and  EngiGyan  T-Shirt
+                    </li>
+                    <li>
+                        2<sup>nd</sup> . Prize: Rs 1000 /-  and  EngiGyan  T-Shirt
+                    </li>
+                    <li>
+                        3<sup>rd</sup> . Prize: Rs 500 /-  and  EngiGyan  T-Shirt
+                    </li>
+                </ul>
+                </strong>
             </div>
         </div>
-        <div class="row">
-            <div class="media border p-3" id="mnmnmn">
-                <div class="media-body">
-                    <h4>SEO Optimization & Keyword Research <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>We need help on SEO optimization (onpage) and Keyword Research for 10 Pages of a website. I also would like to discuss the offpage seo that you can do, I will discuss in details with the shortlisted profile
-                    </p>
-                    <p> <a href="cs_project2.php"><button class="btn btn-primary">Click To Open</button></a> </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3" id="mnmnmn">
-                <div class="media-body">
-                    <h4>get data from server    <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>pulling data from server from android game 
-                    </p>
-                    <p> <a href="cs_project3.php"><button class="btn btn-primary">Click To Open</button></a> </p>
-                </div>
-            </div>
+        <div class="row" id="sss">
+            <button class="btn btn-primary"> Register </button>
         </div>
     </div>
 
  <br><br>
 
- <?php include'footer.php'?>
+
+    <?php include'footer.php'?>
 </body>
 <script src="../../js/dropdown.js"></script>
 <script>

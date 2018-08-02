@@ -21,3 +21,6 @@ $( document ).ready( function () {
         return false;
     } );
 } );
+function xyz(){
+    document.getElementById("jkjkjkjk").style.display="none";
+}

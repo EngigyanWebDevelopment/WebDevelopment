@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel='shortcut icon' href='../../images/favicon.ico' type='image/x-icon'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Industrial Projects in Computer Science</title>
+    <title>Industrial Projects in Civil Engineering</title>
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -32,7 +31,7 @@
         </div>
     </div>  
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
-        <a class="navbar-brand" href="#"><img class="img-fluid" src="../../images/engigyan.png" alt="" id="logo"> EngiGyan</a>
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="images/engigyan.png" alt="" id="logo"> EngiGyan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,13 +49,13 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="menu">
                         <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Computer Science</a>
                             <ul class="dropdown-menu" id="sub-menu">
-                                <li><a class="dropdown-item" href="cpp.php">C++</a></li>
-                                <li><a class="dropdown-item" href="java.php">JAVA</a></li>
-                                <li><a class="dropdown-item" href="mysql.php">MySQL</a></li>
-                                <li><a class="dropdown-item" href="python.php">Python</a></li>
-                                <li><a class="dropdown-item" href="linux.php">LINUX</a></li>
-                                <li><a class="dropdown-item" href="ai.php">Artificial Intelligence</a></li>
-                                <li><a class="dropdown-item" href="bigdata.php">Big Data</a></li>
+                                <li><a class="dropdown-item" href="../cs/cpp.html">C++</a></li>
+                                <li><a class="dropdown-item" href="../cs/java.html">JAVA</a></li>
+                                <li><a class="dropdown-item" href="../cs/mysql.html">MySQL</a></li>
+                                <li><a class="dropdown-item" href="../cs/python.html">Python</a></li>
+                                <li><a class="dropdown-item" href="../cs/linux.html">LINUX</a></li>
+                                <li><a class="dropdown-item" href="../cs/ai.html">Artificial Intelligence</a></li>
+                                <li><a class="dropdown-item" href="../cs/bigdata.html">Big Data</a></li>
                                 <li><a class="dropdown-item" href="#">Web Developement</a></li>
                                 <li><a class="dropdown-item" href="#">App Developement</a></li>
                                 <li><a class="dropdown-item" href="#">Machine Learning</a></li>
@@ -64,10 +63,10 @@
                         </li>
                         <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Mechanical Engineering</a>
                             <ul class="dropdown-menu" id="sub-menu">
-                                <li><a class="dropdown-item" href="../mechanical/solidworks.php">SolidWorks</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/catia.php">CATIA</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/autocad.php">AutoCAD</a></li>
-                                <li><a class="dropdown-item" href="../mechanical/ansys.php">ANSIS</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/solidworks.html">SolidWorks</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/catia.html">CATIA</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/autocad.html">AutoCAD</a></li>
+                                <li><a class="dropdown-item" href="../mechanical/ansys.html">ANSIS</a></li>
                                 <li><a class="dropdown-item" href="#">CDF Analysis</a></li>
                                 <li><a class="dropdown-item" href="#">Hyper Works</a></li>
                             </ul>
@@ -96,11 +95,11 @@
                 </li>  
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <div class="link-nav">AUTO E PREP</div>
+                        <div class="link-nav">SERVICES</div>
                     </a>
                 </li>   
                 <li class="nav-item">
-                    <a class="nav-link" href="../aboutus.php">
+                    <a class="nav-link" href="aboutus.html">
                         <div class="link-nav">ABOUT US</div>
                     </a>
                 </li> 
@@ -206,30 +205,29 @@
         <div class="row">
             <div class="media border p-3" id="mnmnmn">
                 <div class="media-body">
-                    <h4>Hope Academy School  <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>I need a new website. I need you to design and build a website for my small business. 
+                    <h4>I need article writers for my affiliate niche 11 -- 4   <br> <small><i>Solve & Win Prize</i></small></h4>
+                    <p>Each article must be of 1000 - 2000 words length. I'll give titles and keywords/subject matter. Will also be given clear instructions on the format and how to structure the content for best ranking. Use of LSI keywords 
                     </p>
-                    <p> <a href="cs_project1.php"><button class="btn btn-primary">Click To Open</button></a> </p>
+                    <p> <a href="civil_project1.php"><button class="btn btn-primary">Click To Open</button></a> </p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="media border p-3" id="mnmnmn">
                 <div class="media-body">
-                    <h4>SEO Optimization & Keyword Research <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>We need help on SEO optimization (onpage) and Keyword Research for 10 Pages of a website. I also would like to discuss the offpage seo that you can do, I will discuss in details with the shortlisted profile
+                    <p>Do some data correction in an excel sheet for automotive brands and their manufacturing products and particular information like price,unit and other such details.
                     </p>
-                    <p> <a href="cs_project2.php"><button class="btn btn-primary">Click To Open</button></a> </p>
+                    <p> <a href="civil_project2.php"><button class="btn btn-primary">Click To Open</button></a> </p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="media border p-3" id="mnmnmn">
                 <div class="media-body">
-                    <h4>get data from server    <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>pulling data from server from android game 
+                    <h4>Data Entry   <br> <small><i>Solve & Win Prize</i></small></h4>
+                    <p>I have some work, in an Excel spreadsheet.  
                     </p>
-                    <p> <a href="cs_project3.php"><button class="btn btn-primary">Click To Open</button></a> </p>
+                    <p> <a href="civil_project3.php"><button class="btn btn-primary">Click To Open</button></a> </p>
                 </div>
             </div>
         </div>
@@ -237,7 +235,8 @@
 
  <br><br>
 
- <?php include'footer.php'?>
+
+    <?php include'footer.php'?>
 </body>
 <script src="../../js/dropdown.js"></script>
 <script>

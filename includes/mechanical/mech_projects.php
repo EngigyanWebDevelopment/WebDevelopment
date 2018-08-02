@@ -214,43 +214,7 @@
                     <p>EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
                             Make your Image  in industry Eye.
                     </p>
-                    <p> <a href="mech_project1.html"><button class="btn btn-primary">Click To Open</button></a> </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3">
-                <img src="../../images/mech_p_1.png" alt="" class="mr-3 mt-3" style="width:200px;">
-                <div class="media-body">
-                    <h4>Crutch Accessory Challenge <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
-                            Make your Image  in industry Eye.
-                    </p>
-                    <p> <a href="mech_project1.html"><button class="btn btn-primary">Click To Open</button></a> </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3">
-                <img src="../../images/mech_p_1.png" alt="" class="mr-3 mt-3" style="width:200px;">
-                <div class="media-body">
-                    <h4>Crutch Accessory Challenge <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
-                            Make your Image  in industry Eye.
-                    </p>
-                    <p> <a href="mech_project1.html"><button class="btn btn-primary">Click To Open</button></a> </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3">
-                <img src="../../images/mech_p_1.png" alt="" class="mr-3 mt-3" style="width:200px;">
-                <div class="media-body">
-                    <h4>Crutch Accessory Challenge <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
-                            Make your Image  in industry Eye.
-                    </p>
-                    <p> <a href="mech_project1.html"><button class="btn btn-primary">Click To Open</button></a> </p>
+                    <p> <a href="mech_project1.php"><button class="btn btn-primary">Click To Open</button></a> </p>
                 </div>
             </div>
         </div>

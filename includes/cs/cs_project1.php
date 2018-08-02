@@ -32,7 +32,7 @@
             <span class="loading" data-name="Loading">Loading</span>
         </div>
     </div>  
-    <nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
         <a class="navbar-brand" href="#"><img class="img-fluid" src="../../images/engigyan.png" alt="" id="logo"> EngiGyan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -56,15 +56,11 @@
                                 <li><a class="dropdown-item" href="mysql.php">MySQL</a></li>
                                 <li><a class="dropdown-item" href="python.php">Python</a></li>
                                 <li><a class="dropdown-item" href="linux.php">LINUX</a></li>
-                                <li><a class="dropdown-item" href="cloudcomp.php">Cloud Computing</a></li>
-                                <li><a class="dropdown-item" href="robotics.php">Robotics</a></li>
                                 <li><a class="dropdown-item" href="ai.php">Artificial Intelligence</a></li>
                                 <li><a class="dropdown-item" href="bigdata.php">Big Data</a></li>
-                                <li><a class="dropdown-item" href="matlab.php">MATLAB</a></li>
-                                <li><a class="dropdown-item" href="webdev.php">Web Developement</a></li>
-                                <li><a class="dropdown-item" href="appdev.php">App Developement</a></li>
-                                <li><a class="dropdown-item" href="ml.php">Machine Learning</a></li>
-                                <li><a class="dropdown-item" href="digimarket.php">Digital Marketing</a></li>
+                                <li><a class="dropdown-item" href="#">Web Developement</a></li>
+                                <li><a class="dropdown-item" href="#">App Developement</a></li>
+                                <li><a class="dropdown-item" href="#">Machine Learning</a></li>
                             </ul>
                         </li>
                         <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Mechanical Engineering</a>
@@ -89,7 +85,7 @@
                         </li>
                         <li id="menu-li"><a class="dropdown-item dropdown-toggle" href="#" id="menu-content">Electrical Engineering</a>
                             <ul class="dropdown-menu" id="sub-menu">
-                                <li><a class="dropdown-item" href="matlab.php">MATLAB</a></li>
+                                <li><a class="dropdown-item" href="#">MATLAB</a></li>
                                 <li><a class="dropdown-item" href="#">IOT</a></li>
                                 <li><a class="dropdown-item" href="#">AutoCAD</a></li>
                                 <li><a class="dropdown-item" href="#">PLC</a></li>
@@ -209,23 +205,27 @@
     
     <div class="container" id="asdfg">
         <div class="row" id="zxcv">
-            <img src="../../images/mech_p_1.png" alt="" class="img-fluid">
+            
         </div>
         <div class="row" id="zxcvb">
-            <p>Create a 3D printable attachment for Crutches that allow you to carry a drink & a plate of Food.</p>
+            <p><h2>Hope Academy School</h2></p>
+            <p>I need a new website. I need you to design and build a website for my small business. </p>
         </div>
         <div class="row" id="zxcve">
             <div class="col-sm-12 col-lg-6">
                 <h3>Requirements</h3>
                 <ol>
                     <li>
-                        CAD File in IGES File Format
+                    Blog Install
                     </li>
                     <li>
-                        FEA to ensure strength of your submission.
+                    Graphic Design
                     </li>
                     <li>
-                        STEP File Submission so that your design must be 3D Printable.
+                    PHP 
+                    </li>
+                    <li>
+                    Website Design 
                     </li>
                 </ol>
             </div>
@@ -245,24 +245,6 @@
                 </ul>
                 </strong>
             </div>
-        </div>
-        <div class="row" id="kkk">
-            <h3 style="text-align: center;">Judging Creteria</h3>
-            <p>Design should have ability to accommodate a range of different styles of cups, Bottles, dishes</p>
-            <ol>
-                <li>
-                    Can not spill any of the contents while using the crutches
-                </li>
-                <li>
-                    Attachable to a standard crutch (Hole size :7 mm, Screw Size : 5 mm)
-                </li>
-                <li>
-                    Cup attached must hold at least 300 ml of liquid without spilling.
-                </li>
-                <li>
-                    3D printable
-                </li>
-            </ol>
         </div>
         <div class="row" id="sss">
             <button class="btn btn-primary"> Register </button>

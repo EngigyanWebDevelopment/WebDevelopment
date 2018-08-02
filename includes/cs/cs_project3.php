@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Industrial Projects in Computer Science</title>
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/courses.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
@@ -196,48 +197,64 @@
             </div>
         </div>
     </div> 
-    <div class="jumbotron" id="abcde">
-        <p id="contents">Industrial projects helps students to get hands-on practice and enhances their Technical skills
-            Join engineers in professional product design challenges. Show your skills and win prizes.
+    <div class="jumbotron" id="abcde" style="background: #770000 !important; color: white !important;">
+        <p id="contents">EngiGyan  try to bring industrial projects  to you. Prepare for Industry while you are in college.
+                Make your Image  in industry Eye.
         </p>
     </div>
     
-    <div class="container">
-        <div class="row">
-            <div class="media border p-3" id="mnmnmn">
-                <div class="media-body">
-                    <h4>Hope Academy School  <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>I need a new website. I need you to design and build a website for my small business. 
-                    </p>
-                    <p> <a href="cs_project1.php"><button class="btn btn-primary">Click To Open</button></a> </p>
-                </div>
+    <div class="container" id="asdfg">
+        <div class="row" id="zxcv">
+            
+        </div>
+        <div class="row" id="zxcvb">
+            <p><h2>Get data from server</h2></p>
+            <p>pulling data from server from android game  </p>
+        </div>
+        <div class="row" id="zxcve">
+            <div class="col-sm-12 col-lg-6">
+                <h3>Requirements</h3>
+                <ol>
+                    <li>
+                    Graphic Design
+                    </li>
+                    <li>
+                    HTML 
+                    </li>
+                    <li>
+                    PHP 
+                    </li>
+                    <li>
+                    Website Design 
+                    </li>
+                </ol>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <h3>Prizes</h3>
+                <strong>
+                <ul style="list-style-type: none;">
+                    <li>
+                        1<sup>st</sup> . Prize: Rs 1500 /-  and  EngiGyan  T-Shirt
+                    </li>
+                    <li>
+                        2<sup>nd</sup> . Prize: Rs 1000 /-  and  EngiGyan  T-Shirt
+                    </li>
+                    <li>
+                        3<sup>rd</sup> . Prize: Rs 500 /-  and  EngiGyan  T-Shirt
+                    </li>
+                </ul>
+                </strong>
             </div>
         </div>
-        <div class="row">
-            <div class="media border p-3" id="mnmnmn">
-                <div class="media-body">
-                    <h4>SEO Optimization & Keyword Research <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>We need help on SEO optimization (onpage) and Keyword Research for 10 Pages of a website. I also would like to discuss the offpage seo that you can do, I will discuss in details with the shortlisted profile
-                    </p>
-                    <p> <a href="cs_project2.php"><button class="btn btn-primary">Click To Open</button></a> </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3" id="mnmnmn">
-                <div class="media-body">
-                    <h4>get data from server    <br> <small><i>Solve & Win Prize</i></small></h4>
-                    <p>pulling data from server from android game 
-                    </p>
-                    <p> <a href="cs_project3.php"><button class="btn btn-primary">Click To Open</button></a> </p>
-                </div>
-            </div>
+        <div class="row" id="sss">
+            <button class="btn btn-primary"> Register </button>
         </div>
     </div>
 
  <br><br>
 
- <?php include'footer.php'?>
+
+    <?php include'footer.php'?>
 </body>
 <script src="../../js/dropdown.js"></script>
 <script>
