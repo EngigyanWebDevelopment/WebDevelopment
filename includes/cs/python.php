@@ -377,14 +377,15 @@
             <div class="media border p-3" id="video-box">
                 <div class="v_img">
                     <div class="v_img2">
+                        <img src="../../images/video_img3.png" alt="" id="mm">
                         <div class="ayz">
                             <center><h2><a id="play_button" onclick="func1()"><i class="fa fa-play" aria-hidden="true"></i></a></h2></center>
                         </div>
                     </div>
                 </div>
                 <div class="media-body">
-                    <h4>Video : 1<br> <small><i>Starting with JAVA</i></small></h4>
-                    <p>Introduction to what is JAVA, its applications, history etc.
+                    <h4>Video : 1<br> <small><i>Starting with Python</i></small></h4>
+                    <p>Introduction to what is Python, its applications, history etc.
                     </p>
                 </div>
             </div>
