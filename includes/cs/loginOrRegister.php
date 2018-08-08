@@ -20,7 +20,7 @@
 
 <div class="w3-container  w3-margin-top">
 
-<form class="w3-container w3-card-4" method = "post" action = "https://localhost/engigyan/myRegister.php">
+<form class="w3-container w3-card-4" method = "post" action = "https://engigyan.com/myRegister.php">
 <p>
 <input class="w3-input" type="text" style="width:100%" required name = "username">
 <label>Username</label></p>
@@ -32,12 +32,14 @@
 <label>Password</label></p>
 
 <input class="w3-input" type="password" style="width:100%" required name = "pwd2">
-<label>Password</label></p>
+<label>Repeat Password</label></p>
 
 
 
 <p>
-<button type = "submit" class="w3-button w3-section w3-teal w3-ripple"> Pay Now </button></p>
+<button type = "submit" class="w3-button w3-section w3-teal w3-ripple">Register and Pay Now </button>
+Already have and account? <a class = "w3-button w3-teal" href = "https://engigyan.com/index.php">Login and Pay Now</a>
+</p>
 
 </form>
 

@@ -323,14 +323,14 @@
                             <textarea name="" id="" cols="100" rows="3" style="max-width: 100%; max-height: 10%;"></textarea>
                         </div>
                     </div>
-                    <div id="accordion">
+                    <div id="accordion2">
                         <div class="collap">
                             <div id="toggle-collapse">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" id="jkjkjkjk" onclick="xyz()">
                                     View More...
                                 </a>
                             </div>
-                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                            <div id="collapseTwo" class="collapse" data-parent="#accordion2">
                                 <div class="question">
                                     <div class="row">
                                         Q4. Name some areas where keyword optimization is done?

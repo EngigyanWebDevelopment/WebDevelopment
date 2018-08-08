@@ -302,8 +302,8 @@
                             Q1. The “father” of MySQL is ______.
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">Michael Widenius <br>
-                            <input type="radio" name="ans" id="">Bill Joy
+                            <input type="radio" name="ans0" id="">Michael Widenius <br>
+                            <input type="radio" name="ans0" id="">Bill Joy
                         </div>
                     </div>
                     <div class="question">
@@ -311,8 +311,8 @@
                              Q2. The main MySQL program that does all the data handling is called
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">mysql <br>
-                            <input type="radio" name="ans" id="">mysqld
+                            <input type="radio" name="ans1" id="">mysql <br>
+                            <input type="radio" name="ans1" id="">mysqld
                         </div>
                     </div>
                     <div class="question">
@@ -320,25 +320,25 @@
                             Q3. To use MySQL on your computer, you’ll need:
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">Perl, PHP or Java <br>
-                            <input type="radio" name="ans" id="">Some sort of client program to access the databases
+                            <input type="radio" name="ans2" id="">Perl, PHP or Java <br>
+                            <input type="radio" name="ans2" id="">Some sort of client program to access the databases
                         </div>
                     </div>
-                    <div id="accordion">
+                    <div id="accordion2">
                         <div class="collap">
                             <div id="toggle-collapse">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" id="jkjkjkjk" onclick="xyz()">
                                     View More...
                                 </a>
                             </div>
-                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                            <div id="collapseTwo" class="collapse" data-parent="#accordion2">
                                 <div class="question">
                                     <div class="row">
                                         Q4. MySQL comes with as standard with client libraries for: 
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">C only <br>
-                                        <input type="radio" name="ans" id="">Java only
+                                        <input type="radio" name="ans3" id="">C only <br>
+                                        <input type="radio" name="ans3" id="">Java only
                                     </div>
                                 </div>
                                 <div class="question">
@@ -346,8 +346,8 @@
                                         Q5. What kind of replication is supported by the MySQL server?
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">Multiple-master replication <br>
-                                        <input type="radio" name="ans" id="">Master to slave replication
+                                        <input type="radio" name="ans4" id="">Multiple-master replication <br>
+                                        <input type="radio" name="ans4" id="">Master to slave replication
                                     </div>
                                 </div>
                                 <div class="question">
@@ -355,8 +355,8 @@
                                         Q6. Internally information is held in tables. Which of these is NOT a valid format:
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">BDB <br>
-                                        <input type="radio" name="ans" id="">Isam99
+                                        <input type="radio" name="ans5" id="">BDB <br>
+                                        <input type="radio" name="ans5" id="">Isam99
                                     </div>
                                 </div>
                                 <div class="question">
@@ -364,8 +364,8 @@
                                         Q7. Commands passed to the MySQL daemon are written in:
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">Your choice from Perl, PHP, Java or some other languages <br>
-                                        <input type="radio" name="ans" id="">the Structured Query Language
+                                        <input type="radio" name="ans6" id="">Your choice from Perl, PHP, Java or some other languages <br>
+                                        <input type="radio" name="ans6" id="">the Structured Query Language
                                     </div>
                                 </div>
                                 <div class="question">
@@ -373,8 +373,8 @@
                                         Q8. MySQL supports the complete SQL99 standard
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">true <br>
-                                        <input type="radio" name="ans" id="">false
+                                        <input type="radio" name="ans7" id="">true <br>
+                                        <input type="radio" name="ans7" id="">false
                                     </div>
                                 </div>
                                 <div class="question">
@@ -382,8 +382,8 @@
                                         Q9. Which of these is not a valid name for a column
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">Far <br>
-                                        <input type="radio" name="ans" id="">Near
+                                        <input type="radio" name="ans8" id="">Far <br>
+                                        <input type="radio" name="ans8" id="">Near
                                     </div>
                                 </div>
                                 <div class="question">
@@ -391,8 +391,8 @@
                                         Q10. In a <b>LIKE</b> clause, you can could ask for any value ending in “ton” by writing
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">LIKE ton$ <br>
-                                        <input type="radio" name="ans" id="">LIKE %ton*
+                                        <input type="radio" name="ans9" id="">LIKE ton$ <br>
+                                        <input type="radio" name="ans9" id="">LIKE %ton*
                                     </div>
                                 </div>
                             </div>

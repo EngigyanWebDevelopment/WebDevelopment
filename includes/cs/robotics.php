@@ -334,9 +334,9 @@
                             Q1. In which part are global variables stored?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">Flash memory    <br>
-                            <input type="radio" name="ans" id="">SRAM    <br> 
-                            <input type="radio" name="ans" id="">EEPROM        
+                            <input type="radio" name="ans0" id="">Flash memory    <br>
+                            <input type="radio" name="ans0" id="">SRAM    <br> 
+                            <input type="radio" name="ans0" id="">EEPROM        
                         </div>
                     </div>
                     <div class="question">
@@ -344,9 +344,9 @@
                              Q2. P in Atmega328P stands for
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">PrePower  <br>
-                            <input type="radio" name="ans" id="">PicoPower <br> 
-                            <input type="radio" name="ans" id="">Pins
+                            <input type="radio" name="ans1" id="">PrePower  <br>
+                            <input type="radio" name="ans1" id="">PicoPower <br> 
+                            <input type="radio" name="ans1" id="">Pins
                         </div>
                     </div>
                     <div class="question">
@@ -354,18 +354,18 @@
                             Q3. Whose pins have a higher current rating?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">GPIO Pins of Raspi      <br>
-                            <input type="radio" name="ans" id="">I/O Pins of Arduino
+                            <input type="radio" name="ans2" id="">GPIO Pins of Raspi      <br>
+                            <input type="radio" name="ans2" id="">I/O Pins of Arduino
                         </div>
                     </div>
-                    <div id="accordion">
+                    <div id="accordion2">
                         <div class="collap">
                             <div id="toggle-collapse">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" id="jkjkjkjk" onclick="xyz()">
                                     View More...
                                 </a>
                             </div>
-                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                            <div id="collapseTwo" class="collapse" data-parent="#accordion2">
                                 <div class="question">
                                     <div class="row">
                                         Q4. What is the Serial Peripheral Interface (SPI)     communication protocol?
@@ -435,62 +435,15 @@
             <div class="media border p-3" id="video-box">
                 <div class="v_img">
                     <div class="v_img2">
+                    <img src="../../images/video_img6.png" alt="" id="mm">
                         <div class="ayz">
                             <center><h2><a id="play_button" onclick="func1()"><i class="fa fa-play" aria-hidden="true"></i></a></h2></center>
                         </div>
                     </div>
                 </div>
                 <div class="media-body">
-                    <h4>Video : 1<br> <small><i>Starting with JAVA</i></small></h4>
-                    <p>Introduction to what is JAVA, its applications, history etc.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3" id="video-box">
-                <div class="v_img">
-                    <div class="v_img2">
-                        <div class="ayz">
-                            <center><h2><a id="play_button" onclick="func2()"><i class="fa fa-play" aria-hidden="true"></i></a></h2></center>
-                        </div>
-                    </div>
-                </div>
-                <div class="media-body">
-                    <h4>Video : 1<br> <small><i>Starting with JAVA</i></small></h4>
-                    <p>Introduction to what is JAVA, its applications, history etc.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3" id="video-box">
-                <div class="v_img">
-                    <div class="v_img2">
-                        <div class="ayz">
-                            <center><h2><a id="play_button" onclick="func4()"><i class="fa fa-play" aria-hidden="true"></i></a></h2></center>
-                        </div>
-                    </div>
-                </div>
-                <div class="media-body">
-                    <h4>Video : 1<br> <small><i>Starting with JAVA</i></small></h4>
-                    <p>Introduction to what is JAVA, its applications, history etc.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3" id="video-box">
-                <div class="v_img">
-                    <div class="v_img2">
-                        <div class="ayz">
-                            <center><h2><a id="play_button" onclick="func4()"><i class="fa fa-play" aria-hidden="true"></i></a></h2></center>
-                        </div>
-                    </div>
-                </div>
-                <div class="media-body">
-                    <h4>Video : 1<br> <small><i>Starting with JAVA</i></small></h4>
-                    <p>Introduction to what is JAVA, its applications, history etc.
+                    <h4>Video : 1<br> <small><i>Starting with Arduino</i></small></h4>
+                    <p>Introduction to what is Arduino, its applications, history etc.
                     </p>
                 </div>
             </div>

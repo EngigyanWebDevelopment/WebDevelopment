@@ -313,10 +313,10 @@
                             Q1. 1.	Which symbol is used for adding comments in MatLab?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">a)	# <br>
-                            <input type="radio" name="ans" id="">// <br>
-                            <input type="radio" name="ans" id="">% <br>
-                            <input type="radio" name="ans" id="">/*
+                            <input type="radio" name="ans0" id="">a)	# <br>
+                            <input type="radio" name="ans0" id="">// <br>
+                            <input type="radio" name="ans0" id="">% <br>
+                            <input type="radio" name="ans0" id="">/*
                         </div>
                     </div>
                     <div class="question">
@@ -324,10 +324,10 @@
                              Q2. MatLab performs operations in which order?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">Row major <br>
-                            <input type="radio" name="ans" id="">Column major <br>
-                            <input type="radio" name="ans" id="">Diagonal major <br>
-                            <input type="radio" name="ans" id="">None of the Above
+                            <input type="radio" name="ans1" id="">Row major <br>
+                            <input type="radio" name="ans1" id="">Column major <br>
+                            <input type="radio" name="ans1" id="">Diagonal major <br>
+                            <input type="radio" name="ans1" id="">None of the Above
                         </div>
                     </div>
                     <div class="question">
@@ -335,29 +335,29 @@
                             Q3. For printing a newline in fprintf, which escape character is used?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">\p <br>
-                            <input type="radio" name="ans" id="">\t <br>
-                            <input type="radio" name="ans" id="">\n <br>
-                            <input type="radio" name="ans" id="">\l
+                            <input type="radio" name="ans2" id="">\p <br>
+                            <input type="radio" name="ans2" id="">\t <br>
+                            <input type="radio" name="ans2" id="">\n <br>
+                            <input type="radio" name="ans2" id="">\l
                         </div>
                     </div>
-                    <div id="accordion">
+                    <div id="accordion2">
                         <div class="collap">
                             <div id="toggle-collapse">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" id="jkjkjkjk" onclick="xyz()">
                                     View More...
                                 </a>
                             </div>
-                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                            <div id="collapseTwo" class="collapse" data-parent="#accordion2">
                                 <div class="question">
                                     <div class="row">
                                         Q4. Which operator is used to check whether two elements are NOT equal?
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">== <br>
-                                        <input type="radio" name="ans" id="">!= <br>
-                                        <input type="radio" name="ans" id="">~= <br>
-                                        <input type="radio" name="ans" id="">=
+                                        <input type="radio" name="ans3" id="">== <br>
+                                        <input type="radio" name="ans3" id="">!= <br>
+                                        <input type="radio" name="ans3" id="">~= <br>
+                                        <input type="radio" name="ans3" id="">=
                                     </div>
                                 </div>
                                 <div class="question">
@@ -366,10 +366,10 @@
 
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">[1 12] <br>
-                                        <input type="radio" name="ans" id="">[12 1] <br>
-                                        <input type="radio" name="ans" id="">[4 3] <br>
-                                        <input type="radio" name="ans" id="">[3 4]
+                                        <input type="radio" name="ans4" id="">[1 12] <br>
+                                        <input type="radio" name="ans4" id="">[12 1] <br>
+                                        <input type="radio" name="ans4" id="">[4 3] <br>
+                                        <input type="radio" name="ans4" id="">[3 4]
                                     </div>
                                 </div>
                                 <div class="question">
@@ -377,10 +377,10 @@
                                         Q6. Which command deletes all data and variables stored in memory?
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">clc <br>
-                                        <input type="radio" name="ans" id="">clear <br>
-                                        <input type="radio" name="ans" id="">delete <br>
-                                        <input type="radio" name="ans" id="">romove
+                                        <input type="radio" name="ans5" id="">clc <br>
+                                        <input type="radio" name="ans5" id="">clear <br>
+                                        <input type="radio" name="ans5" id="">delete <br>
+                                        <input type="radio" name="ans5" id="">romove
                                     </div>
                                 </div>
                                 <div class="question">
@@ -389,10 +389,10 @@
 
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">A = [0 2 4 6 8 -10] <br>
-                                        <input type="radio" name="ans" id="">A = [-10 -8 -6 -4 -2 0] <br>
-                                        <input type="radio" name="ans" id="">A = [10 8 6 4 2 0] <br>
-                                        <input type="radio" name="ans" id="">None of the above
+                                        <input type="radio" name="ans6" id="">A = [0 2 4 6 8 -10] <br>
+                                        <input type="radio" name="ans6" id="">A = [-10 -8 -6 -4 -2 0] <br>
+                                        <input type="radio" name="ans6" id="">A = [10 8 6 4 2 0] <br>
+                                        <input type="radio" name="ans6" id="">None of the above
                                     </div>
                                 </div>
                                 <div class="question">
@@ -400,10 +400,10 @@
                                         Q8. Which function is used to find largest array dimension?
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">numel(A) <br>
-                                        <input type="radio" name="ans" id="">length(A) <br>
-                                        <input type="radio" name="ans" id="">largest(A) <br>
-                                        <input type="radio" name="ans" id="">dimension(A)
+                                        <input type="radio" name="ans7" id="">numel(A) <br>
+                                        <input type="radio" name="ans7" id="">length(A) <br>
+                                        <input type="radio" name="ans7" id="">largest(A) <br>
+                                        <input type="radio" name="ans7" id="">dimension(A)
                                     </div>
                                 </div>
                                 <div class="question">
@@ -411,10 +411,10 @@
                                         Q9. What is runtime polymorphism or dynamic method dispatch?
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">True <br>
-                                        <input type="radio" name="ans" id="">False <br>
-                                        <input type="radio" name="ans" id="">True <br>
-                                        <input type="radio" name="ans" id="">False
+                                        <input type="radio" name="ans8" id="">True <br>
+                                        <input type="radio" name="ans8" id="">False <br>
+                                        <input type="radio" name="ans8" id="">True <br>
+                                        <input type="radio" name="ans8" id="">False
                                     </div>
                                 </div>
                                 <div class="question">
@@ -422,10 +422,10 @@
                                         Q10. Consider A = zeros(3,3).What will be output of : isempty(A) ?
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">Logical 1 <br>
-                                        <input type="radio" name="ans" id="">Logical 0 <br>
-                                        <input type="radio" name="ans" id="">Double 1 <br>
-                                        <input type="radio" name="ans" id="">Double 0
+                                        <input type="radio" name="ans9" id="">Logical 1 <br>
+                                        <input type="radio" name="ans9" id="">Logical 0 <br>
+                                        <input type="radio" name="ans9" id="">Double 1 <br>
+                                        <input type="radio" name="ans9" id="">Double 0
                                     </div>
                                 </div>
                             </div>
@@ -481,62 +481,15 @@
             <div class="media border p-3" id="video-box">
                 <div class="v_img">
                     <div class="v_img2">
+                    <img src="../../images/video_img5.png" alt="" id="mm">
                         <div class="ayz">
                             <center><h2><a id="play_button" onclick="func1()"><i class="fa fa-play" aria-hidden="true"></i></a></h2></center>
                         </div>
                     </div>
                 </div>
                 <div class="media-body">
-                    <h4>Video : 1<br> <small><i>Starting with JAVA</i></small></h4>
-                    <p>Introduction to what is JAVA, its applications, history etc.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3" id="video-box">
-                <div class="v_img">
-                    <div class="v_img2">
-                        <div class="ayz">
-                            <center><h2><a id="play_button" onclick="func2()"><i class="fa fa-play" aria-hidden="true"></i></a></h2></center>
-                        </div>
-                    </div>
-                </div>
-                <div class="media-body">
-                    <h4>Video : 1<br> <small><i>Starting with JAVA</i></small></h4>
-                    <p>Introduction to what is JAVA, its applications, history etc.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3" id="video-box">
-                <div class="v_img">
-                    <div class="v_img2">
-                        <div class="ayz">
-                            <center><h2><a id="play_button" onclick="func4()"><i class="fa fa-play" aria-hidden="true"></i></a></h2></center>
-                        </div>
-                    </div>
-                </div>
-                <div class="media-body">
-                    <h4>Video : 1<br> <small><i>Starting with JAVA</i></small></h4>
-                    <p>Introduction to what is JAVA, its applications, history etc.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3" id="video-box">
-                <div class="v_img">
-                    <div class="v_img2">
-                        <div class="ayz">
-                            <center><h2><a id="play_button" onclick="func4()"><i class="fa fa-play" aria-hidden="true"></i></a></h2></center>
-                        </div>
-                    </div>
-                </div>
-                <div class="media-body">
-                    <h4>Video : 1<br> <small><i>Starting with JAVA</i></small></h4>
-                    <p>Introduction to what is JAVA, its applications, history etc.
+                    <h4>Video : 1<br> <small><i>Starting with MATLAB</i></small></h4>
+                    <p>Introduction to what is MATLAB, its applications, history etc.
                     </p>
                 </div>
             </div>

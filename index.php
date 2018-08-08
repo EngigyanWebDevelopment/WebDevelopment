@@ -255,7 +255,7 @@
         <img src="images/Screenshot2.png" alt="" class="" id="s_img0">
         <div class="s_img2">
             <div class="ayz">
-                <center><h1>We are leading Live Online training provider in india</h1></center>
+                <center><h1>We are leading Live Online training provider in India</h1></center>
             </div>
             <div class="search">
                 <form action="search.php" method="get">
@@ -282,7 +282,7 @@
                                         <div class="card-body" id="cbody1">
                                             <p id="timer"></p>
                                             <p class="c6-text">Live Video: <span id="upcour"></span></p>
-                                            <div ><a href="#" class="card-link btn btn-primary">View Now</a></div>
+                                            <div ><a href="live_register.php" class="card-link btn btn-primary">View Now</a></div>
                                         </div>
                                     </div>
                                     <div class="carousel-item" id="cit1">
@@ -290,7 +290,7 @@
                                         <div class="card-body" id="cbody1">
                                             <p id="timer1"></p>
                                             <p class="c6-text">Live Video: <span id="upcour1"></span></p>
-                                            <div ><a href="#" class="card-link btn btn-primary">View Now</a></div>
+                                            <div ><a href="live_register.php" class="card-link btn btn-primary">View Now</a></div>
                                         </div>
                                     </div>
                                     <div class="carousel-item" id="cit">
@@ -298,7 +298,7 @@
                                         <div class="card-body" id="cbody1">
                                             <p id="timer2"></p>
                                             <p class="c6-text">Live Video: <span id="upcour2"></span></p>
-                                            <div ><a href="#" class="card-link btn btn-primary">View Now</a></div>
+                                            <div ><a href="live_register.php" class="card-link btn btn-primary">View Now</a></div>
                                         </div>
                                     </div>
                                     <a class="carousel-control-prev" href="#demz" data-slide="prev">
@@ -636,7 +636,7 @@
     </div>
     <div class="container-fluid" id="courses">
         <div class="row" id="c_name">
-            <div class="hhh"><h3 style="">Computer Science Courses</h3></div>
+        <div class="hhh"><h3 style="">Computer Science Courses</h3></div>
         </div>
         <section id="demos">
             <div class="">
@@ -1214,7 +1214,7 @@
         </div>
     </div>
 	
-	<?php //include 'ambassador.php' ?>
+	<?php include 'ambassador.php';?>
     <div class="container-fluid" id="footer">
         <div class="row" id="foot_row">
             <div class="col-lg-3 col-sm-4 col-6">

@@ -377,10 +377,10 @@
                             Q1. What is the term used for describing the judgmental or commonsense part of problem solving?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">Heuristic <br>
-                            <input type="radio" name="ans" id="">Critical<br>
-                            <input type="radio" name="ans" id="">Value based <br>
-                            <input type="radio" name="ans" id="">Analytical
+                            <input type="radio" name="ans0" id="">Heuristic <br>
+                            <input type="radio" name="ans0" id="">Critical<br>
+                            <input type="radio" name="ans0" id="">Value based <br>
+                            <input type="radio" name="ans0" id="">Analytical
                         </div>
                     </div>
                     <div class="question">
@@ -388,10 +388,10 @@
                              Q2. What stage of the manufacturing process has been described as "the mapping of function onto form"?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">Design <br>
-                            <input type="radio" name="ans" id="">Distribution<br>
-                            <input type="radio" name="ans" id="">project management <br>
-                            <input type="radio" name="ans" id="">field service
+                            <input type="radio" name="ans1" id="">Design <br>
+                            <input type="radio" name="ans1" id="">Distribution<br>
+                            <input type="radio" name="ans1" id="">project management <br>
+                            <input type="radio" name="ans1" id="">field service
                         </div>
                     </div>
                     <div class="question">
@@ -399,16 +399,16 @@
                             Q3. Which kind of planning consists of successive representations of different levels of a plan?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">hierarchical planning <br>
-                            <input type="radio" name="ans" id="">non-hierarchical planning<br>
-                            <input type="radio" name="ans" id="">project planning <br>
-                            <input type="radio" name="ans" id="">All of the above
+                            <input type="radio" name="ans2" id="">hierarchical planning <br>
+                            <input type="radio" name="ans2" id="">non-hierarchical planning<br>
+                            <input type="radio" name="ans2" id="">project planning <br>
+                            <input type="radio" name="ans2" id="">All of the above
                         </div>
                     </div>
                     <div id="accordion2">
                         <div class="collap">
                             <div id="toggle-collapse">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" id="jkjkjkjk" onclick="xyz()">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"  id="jkjkjkjk" onclick="xyz()">
                                     View More...
                                 </a>
                             </div>
@@ -418,10 +418,10 @@
                                         Q4. What was originally called the "imitation game" by its creator? 
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">The Turing Test <br>
-                                        <input type="radio" name="ans" id="">LISP<br>
-                                        <input type="radio" name="ans" id="">The Logic Theorist <br>
-                                        <input type="radio" name="ans" id="">Cybernetics
+                                        <input type="radio" name="ans3" id="">The Turing Test <br>
+                                        <input type="radio" name="ans3" id="">LISP<br>
+                                        <input type="radio" name="ans3" id="">The Logic Theorist <br>
+                                        <input type="radio" name="ans3" id="">Cybernetics
                                     </div>
                                 </div>
                                 <div class="question">
@@ -429,10 +429,10 @@
                                         Q5. Decision support programs are designed to help managers make:
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">budget projections <br>
-                                        <input type="radio" name="ans" id="">visual presentations<br>
-                                        <input type="radio" name="ans" id="">business decisions <br>
-                                        <input type="radio" name="ans" id="">vacation schedules
+                                        <input type="radio" name="ans4" id="">budget projections <br>
+                                        <input type="radio" name="ans4" id="">visual presentations<br>
+                                        <input type="radio" name="ans4" id="">business decisions <br>
+                                        <input type="radio" name="ans4" id="">vacation schedules
                                     </div>
                                 </div>
                                 <div class="question">
@@ -441,10 +441,10 @@
                                          It was developed in 1972 at the University of Marseilles by a team of specialists. Can you name the person who headed this team?
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">Alain Colmerauer <br>
-                                        <input type="radio" name="ans" id="">Nicklaus Wirth<br>
-                                        <input type="radio" name="ans" id="">Seymour Papert <br>
-                                        <input type="radio" name="ans" id="">John McCarthy
+                                        <input type="radio" name="ans5" id="">Alain Colmerauer <br>
+                                        <input type="radio" name="ans5" id="">Nicklaus Wirth<br>
+                                        <input type="radio" name="ans5" id="">Seymour Papert <br>
+                                        <input type="radio" name="ans5" id="">John McCarthy
                                     </div>
                                 </div>
                                 <div class="question">
@@ -452,10 +452,10 @@
                                         Q7. Programming a robot by physically moving it through the trajectory you want it to follow is called:
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">contact sensing control <br>
-                                        <input type="radio" name="ans" id="">continuous-path control<br>
-                                        <input type="radio" name="ans" id="">Truerobot vision control <br>
-                                        <input type="radio" name="ans" id="">pick-and-place control
+                                        <input type="radio" name="ans6" id="">contact sensing control <br>
+                                        <input type="radio" name="ans6" id="">continuous-path control<br>
+                                        <input type="radio" name="ans6" id="">Truerobot vision control <br>
+                                        <input type="radio" name="ans6" id="">pick-and-place control
                                     </div>
                                 </div>
                                 <div class="question">
@@ -463,10 +463,10 @@
                                         Q8. To invoke the LISP system, you must enter
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">AI <br>
-                                        <input type="radio" name="ans" id="">LISP<br>
-                                        <input type="radio" name="ans" id="">CL (Common Lisp) <br>
-                                        <input type="radio" name="ans" id="">both b and c
+                                        <input type="radio" name="ans7" id="">AI <br>
+                                        <input type="radio" name="ans7" id="">LISP<br>
+                                        <input type="radio" name="ans7" id="">CL (Common Lisp) <br>
+                                        <input type="radio" name="ans7" id="">both b and c
                                     </div>
                                 </div>
                                 <div class="question">
@@ -474,10 +474,10 @@
                                         Q9. DEC advertises that it helped to create "the world's first expert system routinely used in an industrial environment," called XCON or:
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">PDP-11 <br>
-                                        <input type="radio" name="ans" id="">Rl<br>
-                                        <input type="radio" name="ans" id="">VAX <br>
-                                        <input type="radio" name="ans" id="">MAGNOM
+                                        <input type="radio" name="ans8" id="">PDP-11 <br>
+                                        <input type="radio" name="ans8" id="">Rl<br>
+                                        <input type="radio" name="ans8" id="">VAX <br>
+                                        <input type="radio" name="ans8" id="">MAGNOM
                                     </div>
                                 </div>
                                 <div class="question">
@@ -485,10 +485,10 @@
                                         Q10. Prior to the invention of time sharing, the prevalent method of computer access was:
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">batch processing <br>
-                                        <input type="radio" name="ans" id="">telecommunication<br>
-                                        <input type="radio" name="ans" id="">remote access <br>
-                                        <input type="radio" name="ans" id="">All of the above
+                                        <input type="radio" name="ans9" id="">batch processing <br>
+                                        <input type="radio" name="ans9" id="">telecommunication<br>
+                                        <input type="radio" name="ans9" id="">remote access <br>
+                                        <input type="radio" name="ans9" id="">All of the above
                                     </div>
                                 </div>
                             </div>

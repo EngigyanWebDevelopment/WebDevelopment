@@ -272,8 +272,8 @@
                             Q1. The Java interpreter is used for the execution of the source code.
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">True <br>
-                            <input type="radio" name="ans" id="">False
+                            <input type="radio" name="ans0" id="">True <br>
+                            <input type="radio" name="ans0" id="">False
                         </div>
                     </div>
                     <div class="question">
@@ -281,8 +281,8 @@
                              Q2. On successful compilation a file with the class extension is created.
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">True <br>
-                            <input type="radio" name="ans" id="">False
+                            <input type="radio" name="ans1" id="">True <br>
+                            <input type="radio" name="ans1" id="">False
                         </div>
                     </div>
                     <div class="question">
@@ -290,14 +290,14 @@
                             Q3. The Java source code can be created in a Notepad editor. 
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">True <br>
-                            <input type="radio" name="ans" id="">False
+                            <input type="radio" name="ans2" id="">True <br>
+                            <input type="radio" name="ans2" id="">False
                         </div>
                     </div>
                     <div id="accordion">
                         <div class="collap">
                             <div id="toggle-collapse">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" id="jkjkjkjk" onclick="xyz()">
                                     View More...
                                 </a>
                             </div>
@@ -307,8 +307,8 @@
                                         Q4. The Java Program is enclosed in a class definition. 
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">True <br>
-                                        <input type="radio" name="ans" id="">False
+                                        <input type="radio" name="ans3" id="">True <br>
+                                        <input type="radio" name="ans3" id="">False
                                     </div>
                                 </div>
                                 <div class="question">

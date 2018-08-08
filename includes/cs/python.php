@@ -18,7 +18,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="../../bootstrap/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../preloader/css/loader.css">
+    <link rel="stylesheet" href="../../preloader/css/loader.css">
     <script src="../../preloader/js/loader.js"></script>
 </head>
 <body>
@@ -265,62 +265,65 @@
                 <form action="" style="width: 100% !important;">
                     <div class="question">
                         <div class="row">
-                            Q1. The Java interpreter is used for the execution of the source code.
+                            Q1. What will be the output of the following code : <br> print type(type(int))
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">True <br>
-                            <input type="radio" name="ans" id="">False
+                            <input type="radio" name="ans0" id="">type 'int' <br>
+                            <input type="radio" name="ans0" id="">type 'type' <br>
+                            <input type="radio" name="ans0" id="">Error <br>
+                            <input type="radio" name="ans0" id="">0
                         </div>
                     </div>
                     <div class="question">
                         <div class="row">
-                             Q2. On successful compilation a file with the class extension is created.
+                             Q2. What is the output of the following segment : <br> chr(ord('A'))
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">True <br>
-                            <input type="radio" name="ans" id="">False
+                            <input type="radio" name="ans1" id="">A <br>
+                            <input type="radio" name="ans1" id="">B <br>
+                            <input type="radio" name="ans1" id="">a <br>
+                            <input type="radio" name="ans1" id="">Error 
                         </div>
                     </div>
                     <div class="question">
                         <div class="row">
-                            Q3. The Java source code can be created in a Notepad editor. 
+                            Q3. What is called when a function is defined inside a class?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">True <br>
-                            <input type="radio" name="ans" id="">False
+                            <input type="radio" name="ans2" id="">Module <br>
+                            <input type="radio" name="ans2" id="">Class <br>
+                            <input type="radio" name="ans2" id="">Another Function <br>
+                            <input type="radio" name="ans2" id="">Method
                         </div>
                     </div>
-                    <div id="accordion">
+                    <div id="accordion2">
                         <div class="collap">
                             <div id="toggle-collapse">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" id="jkjkjkjk" onclick="xyz()">
                                     View More...
                                 </a>
                             </div>
-                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                            <div id="collapseTwo" class="collapse" data-parent="#accordion2">
                                 <div class="question">
                                     <div class="row">
-                                        Q4. The Java Program is enclosed in a class definition. 
+                                        Q4. Which of the following is the use of id() function in python?
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">True <br>
-                                        <input type="radio" name="ans" id="">False
+                                        <input type="radio" name="ans3" id="">Id returns the identity of the object <br>
+                                        <input type="radio" name="ans3" id="">Every object doesn’t have a unique id <br>
+                                        <input type="radio" name="ans3" id="">All of the mentioned <br>
+                                        <input type="radio" name="ans3" id="">None of the mentioned
                                     </div>
                                 </div>
                                 <div class="question">
                                     <div class="row">
-                                        Q5. What is the difference between equals() and == ? 
+                                        Q5. Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after list1.pop(1)? 
                                     </div>
                                     <div class="">
-                                        <textarea name="" id="" cols="100" rows="3" style="max-width: 100%; max-height: 10%;"></textarea>
-                                    </div>
-                                </div>
-                                <div class="question">
-                                    <div class="row">
-                                        Q6. What is runtime polymorphism or dynamic method dispatch?
-                                    </div>
-                                    <div class="">
-                                        <textarea name="" id="" cols="100" rows="3" style="max-width: 100%; max-height: 10%;"></textarea>
+                                        <input type="radio" name="ans4" id="">[3, 4, 5, 20, 5, 25, 1, 3] <br>
+                                        <input type="radio" name="ans4" id="">[1, 3, 3, 4, 5, 5, 20, 25] <br>
+                                        <input type="radio" name="ans4" id="">[3, 5, 20, 5, 25, 1, 3] <br>
+                                        <input type="radio" name="ans4" id="">[1, 3, 4, 5, 20, 5, 25]
                                     </div>
                                 </div>
                             </div>
@@ -380,54 +383,6 @@
                         <img src="../../images/video_img3.png" alt="" id="mm">
                         <div class="ayz">
                             <center><h2><a id="play_button" onclick="func1()"><i class="fa fa-play" aria-hidden="true"></i></a></h2></center>
-                        </div>
-                    </div>
-                </div>
-                <div class="media-body">
-                    <h4>Video : 1<br> <small><i>Starting with Python</i></small></h4>
-                    <p>Introduction to what is Python, its applications, history etc.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3" id="video-box">
-                <div class="v_img">
-                    <div class="v_img2">
-                        <div class="ayz">
-                            <center><h2><a id="play_button" onclick="func2()"><i class="fa fa-play" aria-hidden="true"></i></a></h2></center>
-                        </div>
-                    </div>
-                </div>
-                <div class="media-body">
-                    <h4>Video : 1<br> <small><i>Starting with JAVA</i></small></h4>
-                    <p>Introduction to what is JAVA, its applications, history etc.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3" id="video-box">
-                <div class="v_img">
-                    <div class="v_img2">
-                        <div class="ayz">
-                            <center><h2><a id="play_button" onclick="func4()"><i class="fa fa-play" aria-hidden="true"></i></a></h2></center>
-                        </div>
-                    </div>
-                </div>
-                <div class="media-body">
-                    <h4>Video : 1<br> <small><i>Starting with JAVA</i></small></h4>
-                    <p>Introduction to what is JAVA, its applications, history etc.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="media border p-3" id="video-box">
-                <div class="v_img">
-                    <div class="v_img2">
-                        <div class="ayz">
-                            <center><h2><a id="play_button" onclick="func4()"><i class="fa fa-play" aria-hidden="true"></i></a></h2></center>
                         </div>
                     </div>
                 </div>

@@ -334,62 +334,65 @@
                 <form action="" style="width: 100% !important;">
                     <div class="question">
                         <div class="row">
-                            Q1. The Java interpreter is used for the execution of the source code.
+                            Q1. What is the preferred way for adding a background color in HTML?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">True <br>
-                            <input type="radio" name="ans" id="">False
+                            <input type="radio" name="ans0" id="">&lt;body background="yellow"&gt;<br>
+                            <input type="radio" name="ans0" id="">&lt;background>yellow&lt;/background&gt; <br>
+                            <input type="radio" name="ans0" id="">&lt;body style="background-color:yellow"&gt; <br>
+                            <input type="radio" name="ans0" id="">&lt;background color="yellow">text &lt;background&gt;
                         </div>
                     </div>
                     <div class="question">
                         <div class="row">
-                             Q2. On successful compilation a file with the class extension is created.
+                             Q2. What is the correct HTML for creating a hyperlink?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">True <br>
-                            <input type="radio" name="ans" id="">False
+                            <input type="radio" name="ans1" id="">&lt;a name=""&gt;A&lt;/a&gt;	 <br>
+                            <input type="radio" name="ans1" id="">&lt;a&gt;B&lt;/a&gt;	 <br>
+                            <input type="radio" name="ans1" id=""> &lt;a href="http://www.example.com"&gt;example&lt;/a&gt; <br>
+                            <input type="radio" name="ans1" id="">&lt;a url="http://www.example.com"&gt;example&lt;/a&gt; 
                         </div>
                     </div>
                     <div class="question">
                         <div class="row">
-                            Q3. The Java source code can be created in a Notepad editor. 
+                            Q3. How can you create an e-mail link?
                         </div>
                         <div class="">
-                            <input type="radio" name="ans" id="">True <br>
-                            <input type="radio" name="ans" id="">False
+                            <input type="radio" name="ans2" id=""> &lt;mail href="a@b"&gt;	<br>
+                            <input type="radio" name="ans2" id=""> &lt;mail&gt;a@b&lt;/mail&gt;	<br>
+                            <input type="radio" name="ans2" id=""> &lt;a href="a@b"&gt;	<br>
+                            <input type="radio" name="ans2" id=""> &lt;a href="mailto:a@b.com"&gt;
                         </div>
                     </div>
-                    <div id="accordion">
+                    <div id="accordion2">
                         <div class="collap">
                             <div id="toggle-collapse">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" id="jkjkjkjk" onclick="xyz()">
                                     View More...
                                 </a>
                             </div>
-                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                            <div id="collapseTwo" class="collapse" data-parent="#accordion2">
                                 <div class="question">
                                     <div class="row">
-                                        Q4. The Java Program is enclosed in a class definition. 
+                                        Q4. How can you open a link in a new browser window? 
                                     </div>
                                     <div class="">
-                                        <input type="radio" name="ans" id="">True <br>
-                                        <input type="radio" name="ans" id="">False
+                                        <input type="radio" name="ans3" id=""> &lt;a href="url" new&gt; <br>
+                                        <input type="radio" name="ans3" id=""> &lt;a href="url" target="new"&gt; <br>
+                                        <input type="radio" name="ans3" id=""> &lt;a href="url" target="_blank"&gt; <br>
+                                        <input type="radio" name="ans3" id=""> &lt;a href="url" target=""&gt;
                                     </div>
                                 </div>
                                 <div class="question">
                                     <div class="row">
-                                        Q5. What is the difference between equals() and == ? 
+                                        Q5. Which of the following JavaScript cannot do?
                                     </div>
                                     <div class="">
-                                        <textarea name="" id="" cols="100" rows="3" style="max-width: 100%; max-height: 10%;"></textarea>
-                                    </div>
-                                </div>
-                                <div class="question">
-                                    <div class="row">
-                                        Q6. What is runtime polymorphism or dynamic method dispatch?
-                                    </div>
-                                    <div class="">
-                                        <textarea name="" id="" cols="100" rows="3" style="max-width: 100%; max-height: 10%;"></textarea>
+                                        <input type="radio" name="ans4" id=""> JavaScript can react to events	 <br>
+                                        <input type="radio" name="ans4" id=""> JavaScript can manipulate HTML elements	 <br>
+                                        <input type="radio" name="ans4" id=""> JavaScript can be use to validate data	 <br>
+                                        <input type="radio" name="ans4" id=""> All of the Above
                                     </div>
                                 </div>
                             </div>

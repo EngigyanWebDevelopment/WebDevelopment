@@ -660,6 +660,8 @@ nav{
     justify-content: center;
     padding-bottom: 10px !important;
     padding-top: 15x !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
 }
 .hhh{
     display: flex;
@@ -692,9 +694,6 @@ nav{
     min-height: 290px;
     box-shadow: 2px 4px 5px -1px #888888;
     border-radius: 0px !important;
-}
-#demos{
-    border-bottom: 1px solid lightgray;
 }
 .item{
     padding-bottom: 10px !important;
@@ -784,6 +783,11 @@ nav{
 #foo:hover{
     color: rgb(255, 255, 255) !important;
 }
+@media screen and (width:1280px){
+    .overlayx{
+        width: 85% !important;
+    }
+}
 
 @media screen and (min-width:1800px){
     #c{
@@ -802,6 +806,9 @@ nav{
     }
     #menu.show {
         display: flex !important;
+    }
+    #bnb .owl-stage{
+        padding-left: 50px !important;
     }
     #menu3.show {
         display: flex !important;
