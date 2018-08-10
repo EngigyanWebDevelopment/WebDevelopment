@@ -420,8 +420,11 @@ nav{
     min-width: 70px;
 }
 #thi{
-    background: lightgrey;
+    background: rgba(238, 238, 238, 0.301);
     min-height: 230px;
+}
+#thi .card{
+    min-height: 150px;
 }
 .card{
     min-height: 130px;
@@ -597,8 +600,6 @@ nav{
 }
 #teachers{
     padding: 30px !important;
-    border: 1px solid rgba(128, 128, 128, 0.61);
-    border-radius: 2px;
 }
 #ment_c{
     padding-top: 10px !important;
@@ -653,6 +654,16 @@ nav{
     background: linear-gradient(rgba(0, 9, 136, 0.055),white,white);
     padding-top: 15px;
     padding-bottom: 15px;
+    -webkit-animation: fmove 2s; /* Safari 4.0 - 8.0 */
+    animation: fmove 2s !important;
+    animation-fill-mode: forwards !important;
+    animation-timing-function: ease-in-out;
+}
+.owl-seven{
+    -webkit-animation: fmove 3s; /* Safari 4.0 - 8.0 */
+    animation: fmove 3s !important;
+    animation-fill-mode: forwards !important;
+    animation-timing-function: ease-in-out;
 }
 #c_name{
     display: flex;
@@ -668,8 +679,8 @@ nav{
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: linear-gradient(to right,#581845,#900C3F,#C70039);
-    color: white;
+    background: linear-gradient(to right,#288DD0,#85C1E9,#CCEAFF);
+    color: black;
     padding: 10px;
 }
 #mnmnmn{
@@ -685,6 +696,18 @@ nav{
     width: 100%;
     background: linear-gradient(to right,#581845,#900C3F,#C70039);
     color: white;
+}
+.highlights2{
+    margin-top: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(to right,#288DD0,#85C1E9,#CCEAFF);
+    color: #3C002A;
+    font-weight: bolder !important;
 }
 #c_dif{
     border-bottom: 1.5px solid lightgrey;

@@ -511,7 +511,7 @@
             </div>
         </div>
     </div>
-    <div class="highlights"><h3 style="text-align: center !important;">How Can We Enhance you Skills?</h3><br></div>
+    <div class="highlights2"><h3 style="font-weight: 600 !important;">How Can We Enhance you Skills?</h3><br></div>
     <div class="container-fluid" id="how">
         <div class="container">
             <table class="table">
@@ -540,7 +540,7 @@
             </table>
         </div>
     </div>
-    <div class="highlights"><h1 style="text-align: center !important;">Training Highlights</h1><br></div>
+    <div class="highlights2"><h2 style="text-align: center !important;">Training Highlights</h2><br></div>
     <div class="container-fluid" id="thi">
         <div class="container"> 
             <div class="row">
@@ -571,7 +571,7 @@
             </div>
         </div>
     </div>
-    <div class="highlights"><h3 style="text-align: center !important;">What Do You Get Here!!</h3><br></div>
+    <div class="highlights2"><h3 style="text-align: center !important;">What Do You Get Here!!</h3><br></div>
     <div class="container-fluid" id="here">
         <div class="container">
             <div class="row">
@@ -1023,7 +1023,7 @@
             </div>
         </section>
     </div>
-    <div class="highlights"><h1 style="text-align: center !important;">Our Team</h1><br></div>
+    <div class="highlights2"><h2 style="text-align: center !important;font-weight: bold !important;">Our Team</h2><br></div>
     <div class="container-fluid" id="teachers">
         <section id="democ">
             <div class="" style="padding: 0px !important;">
@@ -1160,7 +1160,7 @@
             </div>
         </section>
     </div>
-    <div class="highlights"><h1 style="text-align: center !important;">Student's Feedback</h1><br></div>
+    <div class="highlights2"><h2 style="text-align: center !important;font-weight: bold !important;">Student's Feedback</h2><br></div>
     <div class="container-fluid" id="review">
         <div class="container">
             <div id="demox" class="carousel slide" data-ride="carousel">

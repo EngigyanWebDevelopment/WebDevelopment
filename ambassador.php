@@ -10,6 +10,7 @@ function myFunction() {
 }
 </script>
 <?php
+date_default_timezone_set('Asia/Kolkata');
 // define variables and set to empty values
 $date = date("d/m/Y");
 //echo $date;
@@ -20,7 +21,7 @@ $nameErr = $emailErr = $genderErr = $unameerr = $phoneerr = $collgename = $colle
 ?>
 <br><br>
 <div class="containe-fluid">
-<div class="ghghk"><h3>Ambassadors Registration Form</h2></div>
+<div class="ghghk highlights2"><h3>Ambassadors Registration Form</h2></div>
 <div class="ghghk"><h6>Hey !Ambassador Search Your College To get Started and register for our Programme </h6></div>
 <p id="nameentered"></p>
   <div class="containe">
@@ -55,7 +56,7 @@ $nameErr = $emailErr = $genderErr = $unameerr = $phoneerr = $collgename = $colle
       <td>
         <input type="radio" name="gender" value="female">Female
         <input type="radio" name="gender" value="male">Male
-        <input type="radio" name="gender" value="other">Other <span class="error"><? php echo "*"; ?></span>
+        <input type="radio" name="gender" value="other">Other <span class="error"><?php echo "*";?></span>
       </td>
     </tr>
   </table>
@@ -69,6 +70,7 @@ $nameErr = $emailErr = $genderErr = $unameerr = $phoneerr = $collgename = $colle
 <br><br>
 
 <?php
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$filetmp = $_FILES["fileimg"]["tmp_name"];
 	$filename = $_FILES["fileimg"]["name"];
@@ -168,9 +170,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   //echo "<br>";
   //echo "Gender : ".$gender;
   
-  $servername = "localhost";
-  $username = "root";
-  $password = "";
+  $servername = "111.118.215.77";
+  $username = "smbdu8tr_aakash";
+  $password = "Aakash@1234";
   //$dbname = "myDB"
   // Create connection 
   $conn = new mysqli($servername, $username, $password);
@@ -180,8 +182,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   } 
 
   // Create database
-  $sql = "CREATE DATABASE if not exists engigyan";
-  $sqlconn = "USE engigyan";
+  $sql = "CREATE DATABASE if not exists smbdu8tr_engigyan";
+  $sqlconn = "USE smbdu8tr_engigyan";
   $sqltable = "CREATE TABLE IF NOT EXISTS ambassadors (
           id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
           NAME VARCHAR(100) NOT NULL,
